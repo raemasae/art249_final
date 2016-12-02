@@ -1,14 +1,10 @@
-$font-family-other: 'Spinnaker', sans-serif;
-
 button {
   margin-top: 1rem;
   padding: 0.5rem 1rem;
   background-color: black;
-  border: none;
-  border-radius: 2px;
-  color: white;
   font-size: 0.8rem;
   text-transform: uppercase;
+  color: white;
 
   a {
     font-family: $font-family-other;

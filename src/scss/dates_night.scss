@@ -1,6 +1,12 @@
 .dates {
   position: relative;
 
+  .dates_img {
+    .pilots {
+      width: 100%;
+    }
+  }
+
   .dates_content {
     padding: 9rem 1rem 3rem;
     position: relative;
@@ -36,13 +42,15 @@
           text-align: left;
           font-family: $font-family-other;
           font-weight: 100;
+          text-transform: uppercase;
         }
       }
     }
   }
 
   button {
-    border: 2px solid white;
+    border: 5px solid $link-color;
+    background: transparent;
     position: absolute;
     top: -100px;
     right: 30px;

@@ -1,5 +1,15 @@
 @media screen and (min-width: 500px) {
+  .intro_content {
+    max-width: 700px;
+  }
+
   .dates {
+    .dates_img {
+      img {
+        width: 100%;
+      }
+    }
+
     .dates_content {
       max-width: 700px;
       padding: 10rem 1rem 3rem;
@@ -14,6 +24,28 @@
       right: 50px;
     }
   }
+
+  .news {
+    .news_content {
+      .news_article {
+        &_img {
+          img {
+            width: 200px;
+          }
+        }
+
+        &_content {
+          h5 {
+            font-size: $h5-font-size;
+          }
+
+          p {
+            font-size: $paragraph-font-size;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -26,7 +58,7 @@
   }
 
   .intro {
-    margin: 2.5rem 0;
+    margin: 2.5rem 2rem;
     position: relative;
 
     .intro_content {
@@ -60,7 +92,7 @@
 
         &_underline {
           top: 115px;
-          width: 775px;
+          width: 650px;
         }
 
         &.blurb {
@@ -82,6 +114,34 @@
       h1 {
         left: 50px;
         top: -150px;
+      }
+    }
+  }
+
+  .news {
+    .news_content {
+      max-width: 900px;
+
+      .news_article {
+        padding: 0;
+        margin: 5rem 3rem;
+
+        &_img {
+          img {
+            width: 300px;
+          }
+        }
+
+        &_content {
+          h5 {
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+          }
+
+          p {
+            font-size: 1.2rem;
+          }
+        }
       }
     }
   }
@@ -234,6 +294,30 @@
       right: 0;
     }
   }
+
+  // .news_article_content {
+  //   padding-left: 1rem;
+  //   position: relative;
+  //   text-align: left;
+  //
+  //   h5 {
+  //     font-size: $h5-font-size;
+  //     font-weight: 800;
+  //     line-height: 1.25;
+  //     padding-bottom: 0.5rem;
+  //   }
+  //
+  //   p {
+  //     font-family: $news-paragraph;
+  //     font-size: $paragraph-font-size;
+  //   }
+  //
+  //   button {
+  //     position: absolute;
+  //     right: -1rem;
+  //     bottom: -4.5rem;
+  //   }
+  // }
 
   .gethere {
     .tmobile {
