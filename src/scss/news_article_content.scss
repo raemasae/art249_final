@@ -1,0 +1,21 @@
+.news_article_content {
+  padding-left: 1rem;
+  position: relative;
+  text-align: left;
+
+  h5 {
+    font-weight: 800;
+    line-height: 1.25;
+    padding-bottom: 0.5rem;
+  }
+
+  p {
+    font-family: $news-paragraph;
+  }
+
+  button {
+    position: absolute;
+    right: -1rem;
+    bottom: -4.5rem;
+  }
+}

@@ -1,0 +1,301 @@
+@media screen and (min-width: 500px) {
+  .dates {
+    .dates_content {
+      max-width: 700px;
+      padding: 10rem 1rem 3rem;
+
+      h1 {
+        left: 50px;
+        top: -150px;
+      }
+    }
+
+    button {
+      right: 50px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .intro_content,
+  .news_content,
+  .sponsors,
+  .tmobile_content_details {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .intro {
+    margin: 2.5rem 0;
+    position: relative;
+
+    .intro_content {
+      height: 340px;
+
+      &_header {
+        &.iheart {
+          h2 {
+            font-size: 1.2rem;
+            letter-spacing: 1.5px;
+          }
+        }
+
+        &.music {
+          h2 {
+            font-size: 7rem;
+            letter-spacing: 2px;
+            left: 18px;
+            top: -5px;
+          }
+        }
+
+        &.festival {
+          h2 {
+            font-size: 2rem;
+            letter-spacing: 17px;
+            top: 70px;
+            left: 230px;
+          }
+        }
+
+        &_underline {
+          top: 115px;
+          width: 775px;
+        }
+
+        &.blurb {
+          top: 135px;
+        }
+      }
+    }
+  }
+
+  .tmobile_parking {
+    max-width: 900px;
+  }
+
+  .dates {
+    .dates_content {
+      max-width: 900px;
+      padding: 10rem 1rem 3rem;
+
+      h1 {
+        left: 50px;
+        top: -150px;
+      }
+    }
+  }
+
+  .gethere {
+    .hero {
+      height: 400px;
+    }
+
+    .tmobile {
+      .tmobile_content {
+        margin: 3rem 0;
+      }
+
+      .tmobile_parking {
+        margin: 3rem 0;
+
+        .tmobile_parking_img {
+          margin: 0 2rem;
+        }
+
+        .tmobile_parking_content {
+          margin: 0 2rem;
+        }
+      }
+    }
+
+    .mgm_accomodations {
+      .mgm-img {
+        height: 400px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1249px) {
+  .header_mobile {
+    .logo,
+    .header_mobile_toggle-img,
+    .utility_nav {
+      display: none;
+    }
+  }
+
+  .sidebar {
+    display: block;
+  }
+
+  .media_player_mobile {
+    display: none;
+  }
+
+  .hero {
+    .hero_button {
+      right: 5rem;
+      left: 70%;
+    }
+  }
+
+  .intro,
+  .dates,
+  .news,
+  .tmobile,
+  .mgm_accomodations,
+  footer {
+    width: calc(100% - 25%);
+    float: right;
+  }
+
+  .intro {
+    margin: 5rem 0;
+    position: relative;
+
+    .intro_content {
+      position: relative;
+      height: 340px;
+
+      &_header {
+        &.iheart {
+          h2 {
+            font-size: 1.5rem;
+            letter-spacing: 1.5px;
+          }
+        }
+
+        &.music {
+          h2 {
+            font-size: 7rem;
+            letter-spacing: 2px;
+            left: 18px;
+            top: 0;
+          }
+        }
+
+        &.festival {
+          h2 {
+            font-size: 2.5rem;
+            letter-spacing: 17px;
+            top: 67px;
+            left: 230px;
+          }
+        }
+
+        &_underline {
+          top: 115px;
+          width: 775px;
+        }
+
+        &.blurb {
+          top: 140px;
+          right: -230px;
+          width: 500px;
+          text-align: left;
+        }
+      }
+
+      .intro_content_header_background {
+        background: $secondary-color;
+        width: 711px;
+        height: 400px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: -1;
+      }
+    }
+
+    .intro_content_header_background.two {
+      background: $secondary-color;
+      width: 711px;
+      height: 400px;
+      position: absolute;
+      right: 0;
+      top: 48px;
+      z-index: -1;
+    }
+  }
+
+  .dates {
+    .dates_content {
+      padding: 5rem 1rem 9rem;
+
+      h1 {
+        left: -40px;
+      }
+    }
+
+    button {
+      top: 400px;
+      right: 0;
+    }
+  }
+
+  .gethere {
+    .tmobile {
+      .tmobile_parking {
+        margin: 0 auto;
+        padding: 4rem 1rem;
+
+        .tmobile_parking_img {
+          max-width: 50vw;
+          height: 300px;
+          order: 2;
+          margin: 2rem 0;
+        }
+
+        .tmobile_parking_content {
+          max-width: 50vw;
+          margin: 2rem 1.5rem 2rem 0;
+
+          .parking_content_mobile {
+            display: none;
+          }
+
+          .parking_content_desktop {
+            display: block;
+            text-align: left;
+
+            h3 {
+              font-size: 1.3rem;
+              padding-top: 1rem;
+            }
+          }
+        }
+      }
+    }
+
+    .mgm_accomodations {
+      .mgm-img {
+        padding-top: 200px;
+      }
+
+      .mgm_content {
+        bottom: -175px;
+
+        h3 {
+          font-size: 2.3rem;
+        }
+
+        h4 {
+          font-size: 1.1rem;
+          letter-spacing: 4px;
+        }
+
+        button {
+          margin-top: 3rem;
+          font-size: 1.1rem;
+          padding: 1rem 2rem;
+        }
+      }
+    }
+
+    footer {
+      margin-top: 400px;
+    }
+  }
+}

@@ -1,0 +1,50 @@
+.dates {
+  position: relative;
+
+  .dates_content {
+    padding: 9rem 1rem 3rem;
+    position: relative;
+
+    h1 {
+      @include main_header;
+
+      left: 30px;
+    }
+
+    .dates_content_details {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 2rem;
+
+      .dates_night {
+        width: 30vw;
+
+        h3 {
+          letter-spacing: 2px;
+        }
+
+        .village {
+          letter-spacing: 0.5px;
+        }
+      }
+
+      .dates_artists {
+        width: 70vw;
+        padding-left: 1rem;
+
+        h5 {
+          text-align: left;
+          font-family: $font-family-other;
+          font-weight: 100;
+        }
+      }
+    }
+  }
+
+  button {
+    border: 2px solid white;
+    position: absolute;
+    top: -100px;
+    right: 30px;
+  }
+}

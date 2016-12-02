@@ -1,0 +1,53 @@
+.intro_content {
+  position: relative;
+  height: 340px;
+  // overflow-x: hidden;
+
+  &_header {
+    h2 {
+      position: absolute;
+      font-family: $font-family-other;
+    }
+
+    &.iheart {
+      h2 {
+        font-size: 0.9rem;
+        text-transform: none;
+        letter-spacing: 1.5px;
+      }
+    }
+
+    &.music {
+      h2 {
+        font-family: $font-family-headers;
+        font-size: 3.3rem;
+        letter-spacing: 2px;
+        color: $primary-color;
+        left: 18px;
+        top: 5px;
+      }
+    }
+
+    &.festival {
+      h2 {
+        font-size: 1.2rem;
+        letter-spacing: 9px;
+        top: 37px;
+        left: 120px;
+      }
+    }
+
+    &_underline {
+      border-bottom: 10px solid $link-color;
+      position: relative;
+      top: 70px;
+      width: 92vw;
+    }
+
+    &.blurb {
+      position: relative;
+      top: 100px;
+      text-align: left;
+    }
+  }
+}

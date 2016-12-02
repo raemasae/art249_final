@@ -1,0 +1,249 @@
+@font-face {
+  font-family: 'aileronblack';
+  src:
+    url('src/assets/aileron-black-webfont.woff2') format('woff2'),
+    url('src/assets/aileron-black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'aileronblack_italic';
+  src:
+    url('src/assets/aileron-blackitalic-webfont.woff2') format('woff2'),
+    url('src/assets/aileron-blackitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'aileronbold';
+  src:
+    url('src/assets/aileron-bold-webfont.woff2') format('woff2'),
+    url('src/assets/aileron-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'aileronbold_italic';
+  src:
+    url('src/assets/aileron-bolditalic-webfont.woff2') format('woff2'),
+    url('src/assets/aileron-bolditalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'aileronheavy';
+  src:
+    url('src/assets/aileron-heavy-webfont.woff2') format('woff2'),
+    url('src/assets/aileron-heavy-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'aileronheavy_italic';
+  src:
+    url('src/assets/aileron-heavyitalic-webfont.woff2') format('woff2'),
+    url('src/assets/aileron-heavyitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'aileronitalic';
+  src:
+    url('src/assets/aileron-italic-webfont.woff2') format('woff2'),
+    url('src/assets/aileron-italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'aileronlight';
+  src:
+    url('src/assets/aileron-light-webfont.woff2') format('woff2'),
+    url('src/assets/aileron-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'aileronlight_italic';
+  src:
+    url('src/assets/aileron-lightitalic-webfont.woff2') format('woff2'),
+    url('src/assets/aileron-lightitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'aileronregular';
+  src:
+    url('src/assets/aileron-regular-webfont.woff2') format('woff2'),
+    url('src/assets/aileron-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'aileronsemibold';
+  src:
+    url('src/assets/aileron-semibold-webfont.woff2') format('woff2'),
+    url('src/assets/aileron-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ostrich_sansmedium';
+  src:
+    url('src/assets/ostrich-regular-webfont.woff2') format('woff2'),
+    url('src/assets/ostrich-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ostrich_sansblack';
+  src:
+    url('src/assets/ostrichsans-black-webfont.woff2') format('woff2'),
+    url('src/assets/ostrichsans-black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ostrich_sansheavy';
+  src:
+    url('src/assets/ostrichsans-heavy-webfont.woff2') format('woff2'),
+    url('src/assets/ostrichsans-heavy-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// @font-face {
+//   font-family: 'aileron';
+//   font-path: 'src/assets';
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Spinnaker');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+$font-family: 'aileronregular','Open Sans', sans-serif;
+$font-family-headers: 'ostrich_sansheavy', 'Oswald';
+$font-family-other: 'Spinnaker', sans-serif;
+
+$h1-font-size: 4rem;
+$h1-font-weight: 800;
+
+$h2-font-size: 2.2em;
+$h2-font-weight: 800;
+$h2-line-height: 1.3;
+
+$h3-font-size: 1.5rem;
+$h3-font-weight: 800;
+$h3-text-transform: uppercase;
+
+$h4-font-size: 0.8rem;
+$h4-font-weight: 300;
+$h4-letter-spacing: 1px;
+
+$h5-font-weight: 'aileronbold';
+$h5-letter-spacing: 1px;
+$h5-font-size: 1.2rem;
+
+$paragraph-font-size: 1.1rem;
+$paragraph-font-weight: 300;
+$paragraph-line-height: 1.3;
+
+$news-paragraph: 'aileronlight';
+
+$toggle-link-font-size: 1.3rem;
+$sidebar-link-font-size: 1.1em;
+$sidebar-line-height: 2;
+
+$link-color: #45b2a3;
+$primary-color: #8e3925;
+$secondary-color: #e1cb10;
+
+@mixin main_header {
+  text-align: left;
+  font-size: 9rem;
+  line-height: 8rem;
+  position: absolute;
+  left: -100px;
+  top: -150px;
+}
+
+* {
+  font-family: $font-family;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-size: $toggle-link-font-size;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: $h1-font-size;
+  font-family: $font-family-headers;
+  text-transform: $h3-text-transform;
+}
+
+h2 {
+  font-size: $h2-font-size;
+  line-height: $h2-line-height;
+  font-weight: $h2-font-weight;
+  text-transform: $h3-text-transform;
+}
+
+h3 {
+  font-size: $h3-font-size;
+  line-height: 1;
+  text-transform: $h3-text-transform;
+}
+
+h4 {
+  font-size: $h4-font-size;
+  font-weight: $h4-font-weight;
+  text-transform: $h3-text-transform;
+  letter-spacing: $h4-letter-spacing;
+}
+
+h5 {
+  font-size: $h5-font-size;
+  font-family: $h5-font-weight;
+  letter-spacing: $h5-letter-spacing;
+}
+
+p {
+  font-size: $paragraph-font-size;
+  font-weight: $paragraph-font-weight;
+  line-height: $paragraph-line-height;
+}
+
+.sidebar {
+  .main_nav {
+    a {
+      font-size: $sidebar-link-font-size;
+      letter-spacing: $h4-letter-spacing;
+      line-height: $sidebar-line-height;
+    }
+  }
+}

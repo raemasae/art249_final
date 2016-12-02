@@ -1,0 +1,55 @@
+.toggle_nav {
+  margin: 0 auto;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.87);
+  padding-bottom: 3rem;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+
+  .header_mobile_toggle-img_close {
+    width: 30px;
+    padding-top: 2rem;
+  }
+
+  .toggle_logo {
+    margin: 1rem auto;
+    padding-top: 35px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #999;
+  }
+
+  .toggle_nav {
+    padding-top: 1rem;
+  }
+
+  .utility_nav {
+    display: flex;
+
+    a {
+      font-size: 0.9rem;
+    }
+  }
+
+  li {
+    padding: 0.5rem;
+  }
+
+  p {
+    text-transform: uppercase;
+    padding: 0 4rem;
+    font-size: 1rem;
+  }
+
+  .toggle_nav_divider {
+    border-bottom: 1px solid #999;
+    width: 150px;
+    margin: 0 auto;
+    padding-top: 3rem;
+  }
+
+  .toggle_mgm_promo {
+    padding-top: 3rem;
+  }
+}

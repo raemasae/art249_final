@@ -1,0 +1,89 @@
+$font-family: 'aileronregular','Open Sans', sans-serif;
+$font-family-headers: 'ostrichs_sansheavy', 'Oswald';
+$font-family-other: 'Spinnaker', sans-serif;
+
+.sidebar {
+  background: rgba(255, 255, 255, 0.76);
+  position: fixed;
+  left: 0;
+  z-index: 1;
+  height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+  width: 25%;
+
+  .logo {
+    margin: 2rem auto;
+    text-align: center;
+    padding-top: 35px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+  }
+
+  .main_nav {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+
+    ul {
+      li {
+        a {
+          font-family: $font-family-other;
+        }
+      }
+    }
+  }
+
+  .nav_divider {
+    border-bottom: 1px solid #000;
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  .media_player {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+
+    p {
+      font-family: 'aileronbold';
+      font-size: 1rem;
+      text-transform: capitalize;
+    }
+
+    .song_title {
+      font-size: 0.8rem;
+      font-family: $font-family;
+    }
+
+    .media_player_buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 20px;
+        margin: 0.5rem;
+      }
+
+      .media_player_play {
+        margin-left: 1rem;
+      }
+    }
+  }
+
+  .mgm_promo {
+    padding: 0 2rem;
+
+    p {
+      line-height: 1.2;
+    }
+
+    button {
+      a {
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+        color: white;
+      }
+    }
+  }
+}
