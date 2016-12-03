@@ -29,11 +29,7 @@
 
       &.scoop {
         h2 {
-          font-family: 'ostrich_sansheavy';
-          font-size: 4rem;
-          padding: 0;
-          text-align: left;
-          line-height: 0.9;
+          @include subhead_large;
         }
       }
 
