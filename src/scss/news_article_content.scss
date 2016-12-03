@@ -12,6 +12,39 @@
       padding: 1.5rem 0;
     }
 
+    &_header {
+      margin: 0 1rem;
+
+      &.getthe {
+        margin-left: 0;
+
+        h2 {
+          @include subhead_small;
+
+          text-align: left;
+          padding: 0;
+          margin-top: 2rem;
+        }
+      }
+
+      &.scoop {
+        h2 {
+          font-family: 'ostrich_sansheavy';
+          font-size: 4rem;
+          padding: 0;
+          text-align: left;
+          line-height: 0.9;
+        }
+      }
+
+      .intro_content_header_underline.newstitle {
+        border-color: $primary-color;
+        top: 0;
+        width: 50%;
+        margin-bottom: 2rem;
+      }
+    }
+
     .news_article {
       display: flex;
       justify-content: space-between;

@@ -11,9 +11,7 @@
 
     &.iheart {
       h2 {
-        font-size: 0.9rem;
-        text-transform: none;
-        letter-spacing: 1.5px;
+        @include subhead_small;
       }
     }
 

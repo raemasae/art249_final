@@ -1,11 +1,32 @@
 .hero {
   background: #999;
-  height: 50vh;
+  height: 400px;
   position: relative;
   text-align: center;
+  padding: 0 1rem;
 
   .hero_video {
-    width: 100vw;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: -80px;
+
+    &_header {
+      h3 {
+        font-family: 'ostrich_sansmedium';
+        letter-spacing: 1px;
+      }
+
+      h1 {
+        color: $secondary-color;
+        line-height: 0.9;
+      }
+    }
+
+    .hero_button {
+      align-self: flex-end;
+    }
   }
 
   .hero_play {
@@ -19,13 +40,6 @@
     margin: auto;
   }
 
-  .hero_button {
-    position: absolute;
-    bottom: 3rem;
-    left: 0;
-    right: 0;
-  }
-
   button {
     background: none;
     border: 3px solid #fff;
@@ -33,6 +47,7 @@
 
     a {
       color: #fff;
+      font-size: 1rem;
     }
   }
 }

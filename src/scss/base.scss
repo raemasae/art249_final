@@ -169,7 +169,7 @@ $sidebar-link-font-size: 1.1em;
 $sidebar-line-height: 2;
 
 $link-color: #45b2a3;
-$primary-color: #8e3925;
+$primary-color: #bc492e;
 $secondary-color: #e1cb10;
 
 @mixin main_header {
@@ -179,6 +179,13 @@ $secondary-color: #e1cb10;
   position: absolute;
   left: -100px;
   top: -150px;
+}
+
+@mixin subhead_small {
+  font-family: $font-family-other;
+  font-size: 0.9rem;
+  text-transform: none;
+  letter-spacing: 1.5px;
 }
 
 * {

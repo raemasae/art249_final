@@ -1,8 +1,89 @@
-@media screen and (min-width: 500px) {
-  .intro_content {
-    max-width: 700px;
+@media screen and (max-width: 399px) {
+  p {
+    font-size: 1rem;
+    line-height: 1.5;
   }
 
+  .hero {
+    .header_mobile {
+      padding: 1rem 0;
+    }
+
+    &_video {
+      flex-direction: column;
+
+      &_header {
+        h3 {
+          font-size: 1.2rem;
+        }
+
+        h1 {
+          font-size: 3rem;
+        }
+      }
+    }
+  }
+
+  .intro {
+    margin-bottom: 1rem;
+  }
+
+  .dates {
+    .dates_content {
+      padding-top: 6rem;
+
+      h1 {
+        font-size: 5rem;
+        line-height: 1;
+        top: -110px;
+      }
+
+      .dates_content_details {
+        flex-direction: column;
+        text-align: left;
+        padding-bottom: 2.5rem;
+
+        .dates_night,
+        .dates_artists {
+          width: 100%;
+        }
+
+        .dates_artists {
+          padding-left: 0;
+          padding-top: 1rem;
+
+          h5 {
+            font-size: 0.9rem;
+          }
+        }
+      }
+
+      button {
+        top: -90px;
+      }
+    }
+  }
+
+  .news {
+    &_content {
+      .news_article {
+        flex-direction: column;
+
+        .news_article_img {
+          img {
+            width: 100%;
+          }
+        }
+
+        .news_article_content {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 500px) {
   .dates {
     .dates_img {
       img {
