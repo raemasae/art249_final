@@ -109,6 +109,18 @@
 
   .news {
     .news_content {
+      &_header.getthe {
+        h2 {
+          font-size: 1.2rem;
+        }
+      }
+
+      &_header.scoop {
+        h2 {
+          font-size: 5rem;
+        }
+      }
+
       .news_article {
         &_img {
           img {
@@ -133,6 +145,33 @@
 @media screen and (min-width: 768px) {
   .hero {
     padding: 0 4rem;
+
+    .hero_video {
+      bottom: -80px;
+
+      &_content {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+      }
+    }
+  }
+
+  .dates {
+    &_content {
+      &_details {
+        .dates_night {
+          h4 {
+            font-size: 1rem;
+            letter-spacing: 1.1px;
+          }
+
+          h3 {
+            font-size: 2rem;
+          }
+        }
+      }
+    }
   }
 
   .news_content,
@@ -264,6 +303,17 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .hero {
+    .hero_video {
+      &_content {
+        width: 900px;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
 @media screen and (min-width: 1249px) {
   .header_mobile {
     .logo,
@@ -295,14 +345,19 @@
       width: calc(100% - 25%);
       float: right;
       padding: 2rem 3rem;
+      bottom: -250px;
 
-      &_header {
-        h3 {
-          font-size: 2rem;
-        }
+      &_content {
+        width: 100%;
 
-        h1 {
-          font-size: 7rem;
+        .hero_video_header {
+          h3 {
+            font-size: 2rem;
+          }
+
+          h1 {
+            font-size: 7rem;
+          }
         }
       }
     }
@@ -390,42 +445,26 @@
 
   .dates {
     .dates_content {
-      padding: 5rem 1rem 9rem;
+      padding: 4.2rem 7rem 9rem;
 
       h1 {
-        left: -40px;
+        left: 25px;
       }
     }
 
     button {
-      top: 400px;
+      top: 475px;
       right: 0;
     }
   }
 
-  // .news_article_content {
-  //   padding-left: 1rem;
-  //   position: relative;
-  //   text-align: left;
-  //
-  //   h5 {
-  //     font-size: $h5-font-size;
-  //     font-weight: 800;
-  //     line-height: 1.25;
-  //     padding-bottom: 0.5rem;
-  //   }
-  //
-  //   p {
-  //     font-family: $news-paragraph;
-  //     font-size: $paragraph-font-size;
-  //   }
-  //
-  //   button {
-  //     position: absolute;
-  //     right: -1rem;
-  //     bottom: -4.5rem;
-  //   }
-  // }
+  .news {
+    &_content {
+      button {
+        font-size: 1rem;
+      }
+    }
+  }
 
   .gethere {
     .tmobile {
