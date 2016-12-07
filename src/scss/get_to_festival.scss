@@ -15,36 +15,61 @@
 
   .tmobile_content {
     padding: 2rem 1rem;
-  }
 
-  h3 {
-    text-transform: uppercase;
-    padding: 1rem 0 0.5rem;
-  }
+    &_details {
+      h3 {
+        text-transform: uppercase;
+        padding: 1rem 0 0.5rem;
+      }
 
-  p {
-    font-size: 1rem;
+      p {
+        font-size: 1rem;
+      }
+    }
+
+    .tmobile_button {
+      button {
+        @include green-button;
+      }
+    }
   }
 
   .tmobile_map {
-    text-align: center;
-    width: auto;
-    height: 400px;
-    background: #999;
-    padding-top: 175px;
+    margin-bottom: 3rem;
+
+    img {
+      width: 100%;
+    }
   }
 
   .tmobile_parking {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 2rem 1rem;
+    height: 300px;
+    background-color: $secondary-color;
 
     .tmobile_parking_img {
-      background: #999;
-      width: 50vw;
+      width: 150px;
       height: 150px;
-      padding-top: 75px;
-      max-width: 250px;
+      border: 5px solid $link-color;
+      padding: 1.2rem 2rem;
+      border-radius: 75px;
+      margin: 0 auto;
+
+      img {
+        width: 75%;
+      }
+
+      .tmobile_parking_img_text {
+        p {
+          font-size: 1rem;
+          line-height: 1.1;
+          text-transform: uppercase;
+          margin-top: 0.5rem;
+        }
+      }
     }
 
     .tmobile_parking_content {
@@ -54,11 +79,16 @@
 
       h3 {
         padding-top: 0.5rem;
+        // color: $secondary-color;
+        line-height: 1.2;
+        margin-bottom: 0.5rem;
       }
 
       button {
-        font-size: 0.8rem;
+        @include green-button;
+
         margin-top: 0;
+        margin-bottom: 0;
       }
 
       .parking_content_desktop {
@@ -73,7 +103,6 @@
   position: relative;
 
   .mgm-img {
-    padding-top: 30%;
     overflow-x: hidden;
 
     img {
@@ -107,6 +136,6 @@
   }
 }
 
-footer {
+.footer_festival {
   margin-top: 200px;
 }

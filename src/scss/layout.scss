@@ -63,32 +63,6 @@ a.toggle {
   }
 }
 
-.news {
-  margin: 0 auto;
-  text-align: center;
-
-  .news_content {
-    margin: 0 auto;
-
-    h2 {
-      text-transform: uppercase;
-      text-align: center;
-      font-weight: 800;
-      padding: 1.5rem 0;
-    }
-
-    .news_article {
-      display: flex;
-      justify-content: space-between;
-      padding: 2rem 1rem 3rem;
-    }
-
-    button {
-      margin: 3rem 0;
-    }
-  }
-}
-
 footer {
   padding: 3rem 0;
   text-align: center;

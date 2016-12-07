@@ -157,6 +157,13 @@ $secondary-color: #e1cb10;
   line-height: 0.9;
 }
 
+@mixin green-button {
+  margin: 3rem 0;
+  padding: 1rem 1.5rem;
+  background-color: $link-color;
+  border: none;
+}
+
 * {
   font-family: $font-family;
 }

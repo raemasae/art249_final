@@ -1,7 +1,3 @@
-$font-family: 'aileronregular','Open Sans', sans-serif;
-$font-family-headers: 'ostrichs_sansheavy', 'Oswald';
-$font-family-other: 'Spinnaker', sans-serif;
-
 .sidebar {
   background: rgba(255, 255, 255, 0.76);
   position: fixed;
@@ -51,7 +47,7 @@ $font-family-other: 'Spinnaker', sans-serif;
     }
 
     .song_title {
-      font-size: 0.8rem;
+      font-size: $h4-font-size;
       font-family: $font-family;
     }
 
@@ -80,7 +76,7 @@ $font-family-other: 'Spinnaker', sans-serif;
 
     button {
       a {
-        font-size: 0.8rem;
+        font-size: $h4-font-size;
         letter-spacing: 1px;
         color: white;
       }
