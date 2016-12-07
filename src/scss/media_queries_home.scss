@@ -9,8 +9,9 @@
       padding: 1rem 0;
     }
 
-    &_video {
+    .hero_video {
       flex-direction: column;
+      bottom: -60px;
 
       &_header {
         h3 {
@@ -130,7 +131,10 @@
 }
 
 @media screen and (min-width: 768px) {
-  .intro_content,
+  .hero {
+    padding: 0 4rem;
+  }
+
   .news_content,
   .sponsors,
   .tmobile_content_details {
@@ -143,6 +147,8 @@
     position: relative;
 
     .intro_content {
+      width: 700px;
+      margin: 0 auto;
       height: 340px;
 
       &_header {
@@ -282,6 +288,26 @@
     }
   }
 
+  .hero {
+    height: 700px;
+
+    .hero_video {
+      width: calc(100% - 25%);
+      float: right;
+      padding: 2rem 3rem;
+
+      &_header {
+        h3 {
+          font-size: 2rem;
+        }
+
+        h1 {
+          font-size: 7rem;
+        }
+      }
+    }
+  }
+
   .intro,
   .dates,
   .news,
@@ -297,6 +323,7 @@
     position: relative;
 
     .intro_content {
+      max-width: 900px;
       position: relative;
       height: 340px;
 
@@ -341,7 +368,7 @@
 
       .intro_content_header_background {
         background: $secondary-color;
-        width: 711px;
+        width: 510px;
         height: 400px;
         position: absolute;
         right: 0;

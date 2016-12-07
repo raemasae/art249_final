@@ -40,7 +40,7 @@ function onWarning(error) { return handleError.call(this, 'warning', error) }
 gulp.task('sass', ['stylelint'], () => {
     return gulp.src('src/scss/style.scss').
         pipe(sass().on('error', onError)).
-        pipe(postcss([pfm]).on('error', onError)).
+        pipe(postcss([pfm, pfontpath]).on('error', onError)).
         pipe(concat('style.css')).
         pipe(gulp.dest('')).
         pipe(browserSync.reload({ stream: true }))
@@ -55,6 +55,12 @@ gulp.task('stylelint', () => {
                 console: true
             }]
         }))
+})
+
+// copy files from the assets folder
+gulp.task('copy-assets', () => {
+    return gulp.src('src/assets/**/*.*').
+      pipe(gulp.dest('assets'))
 })
 
 // run browser-sync
@@ -81,12 +87,13 @@ gulp.task('images', () => {
 })
 
 // build everything
-gulp.task('build', ['sass', 'html', 'images'])
+gulp.task('build', ['sass', 'html', 'images', 'copy-assets'])
 
 // start watching all your files
 gulp.task('watch', ['build', 'sync'], () => {
     global.isWatching = true
 
+    gulp.watch('src/assets/**/*.*', ['copy-assets'])
     gulp.watch('src/scss/**/*.scss', ['sass'])
     gulp.watch('src/**/*.html', ['html'])
     gulp.watch('src/images/**/*.{gif,jpg,png}', ['images'])

@@ -1,135 +1,100 @@
 @font-face {
   font-family: 'aileronblack';
-  src:
-    url('src/assets/aileron-black-webfont.woff2') format('woff2'),
-    url('src/assets/aileron-black-webfont.woff') format('woff');
+  font-path: 'assets/aileron-black-webfont';
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'aileronblack_italic';
-  src:
-    url('src/assets/aileron-blackitalic-webfont.woff2') format('woff2'),
-    url('src/assets/aileron-blackitalic-webfont.woff') format('woff');
+  font-path: 'assets/aileron-blackitalic-webfont';
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'aileronbold';
-  src:
-    url('src/assets/aileron-bold-webfont.woff2') format('woff2'),
-    url('src/assets/aileron-bold-webfont.woff') format('woff');
+  font-path: 'assets/aileron-bold-webfont';
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'aileronbold_italic';
-  src:
-    url('src/assets/aileron-bolditalic-webfont.woff2') format('woff2'),
-    url('src/assets/aileron-bolditalic-webfont.woff') format('woff');
+  font-path: 'assets/aileron-bolditalic-webfont';
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'aileronheavy';
-  src:
-    url('src/assets/aileron-heavy-webfont.woff2') format('woff2'),
-    url('src/assets/aileron-heavy-webfont.woff') format('woff');
+  font-path: 'assets/aileron-heavy-webfont';
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'aileronheavy_italic';
-  src:
-    url('src/assets/aileron-heavyitalic-webfont.woff2') format('woff2'),
-    url('src/assets/aileron-heavyitalic-webfont.woff') format('woff');
+  font-path: 'assets/aileron-heavyitalic-webfont';
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'aileronitalic';
-  src:
-    url('src/assets/aileron-italic-webfont.woff2') format('woff2'),
-    url('src/assets/aileron-italic-webfont.woff') format('woff');
+  font-path: 'assets/aileron-italic-webfont';
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'aileronlight';
-  src:
-    url('src/assets/aileron-light-webfont.woff2') format('woff2'),
-    url('src/assets/aileron-light-webfont.woff') format('woff');
+  font-path: 'assets/aileron-light-webfont';
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'aileronlight_italic';
-  src:
-    url('src/assets/aileron-lightitalic-webfont.woff2') format('woff2'),
-    url('src/assets/aileron-lightitalic-webfont.woff') format('woff');
+  font-path: 'assets/aileron-lightitalic-webfont';
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'aileronregular';
-  src:
-    url('src/assets/aileron-regular-webfont.woff2') format('woff2'),
-    url('src/assets/aileron-regular-webfont.woff') format('woff');
+  font-path: 'assets/aileron-regular-webfont';
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'aileronsemibold';
-  src:
-    url('src/assets/aileron-semibold-webfont.woff2') format('woff2'),
-    url('src/assets/aileron-semibold-webfont.woff') format('woff');
+  font-path: 'assets/aileron-semibold-webfont';
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'ostrich_sansmedium';
-  src:
-    url('src/assets/ostrich-regular-webfont.woff2') format('woff2'),
-    url('src/assets/ostrich-regular-webfont.woff') format('woff');
+  font-path: 'assets/ostrich-regular-webfont';
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'ostrich_sansblack';
-  src:
-    url('src/assets/ostrichsans-black-webfont.woff2') format('woff2'),
-    url('src/assets/ostrichsans-black-webfont.woff') format('woff');
+  font-path: 'assets/ostrichsans-black-webfont';
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'ostrich_sansheavy';
-  src:
-    url('src/assets/ostrichsans-heavy-webfont.woff2') format('woff2'),
-    url('src/assets/ostrichsans-heavy-webfont.woff') format('woff');
+  font-path: 'assets/ostrichsans-heavy-webfont';
   font-weight: normal;
   font-style: normal;
 }
-
-// @font-face {
-//   font-family: 'aileron';
-//   font-path: 'src/assets';
-//   font-weight: normal;
-//   font-style: normal;
-// }
 
 // @import url('https://fonts.googleapis.com/css?family=Open+Sans|Spinnaker');
 // @import url('https://fonts.googleapis.com/css?family=Oswald');

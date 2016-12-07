@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    bottom: -80px;
+    bottom: -15px;
 
     &_header {
       h3 {
@@ -26,6 +26,7 @@
 
     .hero_button {
       align-self: flex-end;
+      margin-bottom: 7px;
     }
   }
 
