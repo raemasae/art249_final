@@ -140,6 +140,15 @@
       }
     }
   }
+
+  .hero.festival {
+    .hero_img {
+      h1 {
+        font-size: 7rem;
+        left: 40px;
+      }
+    }
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -228,8 +237,25 @@
     }
   }
 
-  .tmobile_parking {
-    max-width: 900px;
+  .tmobile {
+    &_content {
+      &_details {
+        p {
+          line-height: 1.5;
+        }
+      }
+    }
+
+    .tmobile_parking {
+      justify-content: space-around;
+      padding: 3rem 9rem;
+
+      .tmobile_parking_img {
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+      }
+    }
   }
 
   .dates {
@@ -272,34 +298,43 @@
     }
   }
 
-  .gethere {
-    .hero {
-      height: 400px;
-    }
+  .hero {
+    height: 400px;
+  }
 
-    .tmobile {
-      .tmobile_content {
-        margin: 3rem 0;
+  .hero.festival {
+    .hero_img {
+      h1 {
+        font-size: 9rem;
+        left: 85px;
+        bottom: 60px;
       }
+    }
+  }
 
-      .tmobile_parking {
-        margin: 3rem 0;
+  .mgm_accomodations {
+    .mgm_content {
+      bottom: -160px;
 
-        .tmobile_parking_img {
-          margin: 0 2rem;
+      .mgm_content_details {
+        h3 {
+          font-size: $h1-font-size;
         }
 
-        .tmobile_parking_content {
-          margin: 0 2rem;
+        h4 {
+          font-size: 1.2rem;
+          letter-spacing: 1.7px;
+        }
+
+        button {
+          margin-top: 2rem;
         }
       }
     }
+  }
 
-    .mgm_accomodations {
-      .mgm-img {
-        height: 400px;
-      }
-    }
+  .footer_festival {
+    margin-top: 300px;
   }
 }
 
@@ -311,6 +346,10 @@
         margin: 0 auto;
       }
     }
+  }
+
+  .tmobile_parking {
+    padding: 3rem 12rem;
   }
 }
 
@@ -366,7 +405,9 @@
   .intro,
   .dates,
   .news,
-  .tmobile,
+  .tmobile_content,
+  .tmobile_map,
+  .tmobile_parking,
   .mgm_accomodations,
   footer {
     width: calc(100% - 25%);
@@ -466,67 +507,92 @@
     }
   }
 
-  .gethere {
-    .tmobile {
-      .tmobile_parking {
-        margin: 0 auto;
-        padding: 4rem 1rem;
+  .hero.festival {
+    .hero_img {
+      img {
+        margin-top: -300px;
+      }
 
-        .tmobile_parking_img {
-          max-width: 50vw;
-          height: 300px;
-          order: 2;
-          margin: 2rem 0;
+      h1 {
+        left: 80%;
+      }
+    }
+  }
+
+  .tmobile {
+    // background: #f4f6f7;
+    // margin-top: -250px;
+    // position: relative;
+    // z-index: 1;
+    .tmobile_map {
+      margin-bottom: 5rem;
+    }
+
+    .tmobile_parking {
+      background-color: transparent;
+      margin: 0 auto;
+      padding: 4rem 0 0;
+
+      .tmobile_parking_img {
+        height: 300px;
+        width: 300px;
+        border-radius: 150px;
+        order: 2;
+        margin-right: 2rem;
+
+        img {
+          width: 50%;
+        }
+      }
+
+      .tmobile_parking_content {
+        max-width: 50vw;
+        margin: 2rem 1.5rem 2rem 0;
+
+        .parking_content_mobile {
+          display: none;
         }
 
-        .tmobile_parking_content {
-          max-width: 50vw;
-          margin: 2rem 1.5rem 2rem 0;
+        .parking_content_desktop {
+          display: block;
+          text-align: left;
+          background: $secondary-color;
+          padding: 2rem 2rem 5rem;
 
-          .parking_content_mobile {
-            display: none;
+
+          h3 {
+            font-size: 1.3rem;
+            padding-top: 1rem;
           }
-
-          .parking_content_desktop {
-            display: block;
-            text-align: left;
-
-            h3 {
-              font-size: 1.3rem;
-              padding-top: 1rem;
-            }
-          }
         }
       }
     }
+  }
 
-    .mgm_accomodations {
-      .mgm-img {
-        padding-top: 200px;
+  .mgm_accomodations {
+    margin-top: 4rem;
+
+    .mgm_content {
+      bottom: -175px;
+
+      h3 {
+        font-size: 2.3rem;
       }
 
-      .mgm_content {
-        bottom: -175px;
+      h4 {
+        font-size: 1.1rem;
+        letter-spacing: 4px;
+      }
 
-        h3 {
-          font-size: 2.3rem;
-        }
-
-        h4 {
-          font-size: 1.1rem;
-          letter-spacing: 4px;
-        }
-
-        button {
-          margin-top: 3rem;
-          font-size: 1.1rem;
-          padding: 1rem 2rem;
-        }
+      button {
+        margin-top: 3rem;
+        font-size: 1.1rem;
+        padding: 1rem 2rem;
       }
     }
+  }
 
-    footer {
-      margin-top: 400px;
-    }
+  footer {
+    margin-top: 400px;
   }
 }

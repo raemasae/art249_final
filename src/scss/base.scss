@@ -162,6 +162,12 @@ $secondary-color: #e1cb10;
   padding: 1rem 1.5rem;
   background-color: $link-color;
   border: none;
+  font-family: $font-family-other;
+}
+
+@mixin hero_header {
+  color: $secondary-color;
+  line-height: 0.9;
 }
 
 * {

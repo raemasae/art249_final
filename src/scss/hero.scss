@@ -19,8 +19,7 @@
       }
 
       h1 {
-        color: $secondary-color;
-        line-height: 0.9;
+        @include hero_header;
       }
     }
 
