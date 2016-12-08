@@ -509,9 +509,9 @@
 
   .hero.festival {
     .hero_img {
-      img {
-        margin-top: -300px;
-      }
+      // img {
+      //   margin-top: -300px;
+      // }
 
       h1 {
         left: 80%;
@@ -543,11 +543,25 @@
         img {
           width: 50%;
         }
+
+        .tmobile_parking_img_text {
+          p {
+            font-size: 1rem;
+          }
+        }
+
+        button {
+          display: block;
+
+          @include green-button;
+
+          margin: 1rem auto;
+        }
       }
 
       .tmobile_parking_content {
         max-width: 50vw;
-        margin: 2rem 1.5rem 2rem 0;
+        margin-right: 1rem;
 
         .parking_content_mobile {
           display: none;
@@ -559,10 +573,16 @@
           background: $secondary-color;
           padding: 2rem 2rem 5rem;
 
+          .parking_desktop_header {
+            font-family: $font-family-headers;
+            font-size: $h1-font-size;
+            letter-spacing: 1px;
+          }
 
-          h3 {
-            font-size: 1.3rem;
-            padding-top: 1rem;
+          .reserved {
+            font-family: $font-family-other;
+            font-size: $h3-font-size;
+            padding-top: 0.5rem;
           }
         }
       }

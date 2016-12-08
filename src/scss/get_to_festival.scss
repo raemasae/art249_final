@@ -75,11 +75,16 @@
 
       .tmobile_parking_img_text {
         p {
-          font-size: 1rem;
+          font-family: $font-family-other;
+          font-size: 0.8rem;
           line-height: 1.1;
           text-transform: uppercase;
           margin-top: 0.5rem;
         }
+      }
+
+      button {
+        display: none;
       }
     }
 
