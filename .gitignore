@@ -1,8 +1,3 @@
 node_modules
 dist
 assets
-
-# Remove everything below when forking this for a project
-/index.html
-/style.css
-/images

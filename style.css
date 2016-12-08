@@ -1,0 +1,1004 @@
+@font-face {
+  font-family: Spinnaker;
+  font-style: normal;
+  font-weight: 400;
+  src: local(Spinnaker),local(Spinnaker-Regular),url(//fonts.gstatic.com/s/spinnaker/v8/WxzDAY6mC9v3znSJEtCoW_Y6323mHUZFJMgTvxaG2iE.eot?#) format("eot"),url(//fonts.gstatic.com/s/spinnaker/v8/WxzDAY6mC9v3znSJEtCoW1tXRa8TVwTICgirnJhmVJw.woff2) format("woff2"),url(//fonts.gstatic.com/s/spinnaker/v8/WxzDAY6mC9v3znSJEtCoWz8E0i7KZn-EPnyo3HZu7kw.woff) format("woff"); }
+
+@font-face {
+  font-family: 'aileronblack';
+  src: url("assets/aileron-black-webfont.eot");
+  src: url("assets/aileron-black-webfont.eot?#iefix") format('embedded-opentype'),
+       url("assets/aileron-black-webfont.woff") format('woff'),
+       url("assets/aileron-black-webfont.ttf") format('truetype'),
+       url("assets/aileron-black-webfont.svg") format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'aileronblack_italic';
+  src: url("assets/aileron-blackitalic-webfont.eot");
+  src: url("assets/aileron-blackitalic-webfont.eot?#iefix") format('embedded-opentype'),
+       url("assets/aileron-blackitalic-webfont.woff") format('woff'),
+       url("assets/aileron-blackitalic-webfont.ttf") format('truetype'),
+       url("assets/aileron-blackitalic-webfont.svg") format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'aileronbold';
+  src: url("assets/aileron-bold-webfont.eot");
+  src: url("assets/aileron-bold-webfont.eot?#iefix") format('embedded-opentype'),
+       url("assets/aileron-bold-webfont.woff") format('woff'),
+       url("assets/aileron-bold-webfont.ttf") format('truetype'),
+       url("assets/aileron-bold-webfont.svg") format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'aileronbold_italic';
+  src: url("assets/aileron-bolditalic-webfont.eot");
+  src: url("assets/aileron-bolditalic-webfont.eot?#iefix") format('embedded-opentype'),
+       url("assets/aileron-bolditalic-webfont.woff") format('woff'),
+       url("assets/aileron-bolditalic-webfont.ttf") format('truetype'),
+       url("assets/aileron-bolditalic-webfont.svg") format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'aileronheavy';
+  src: url("assets/aileron-heavy-webfont.eot");
+  src: url("assets/aileron-heavy-webfont.eot?#iefix") format('embedded-opentype'),
+       url("assets/aileron-heavy-webfont.woff") format('woff'),
+       url("assets/aileron-heavy-webfont.ttf") format('truetype'),
+       url("assets/aileron-heavy-webfont.svg") format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'aileronheavy_italic';
+  src: url("assets/aileron-heavyitalic-webfont.eot");
+  src: url("assets/aileron-heavyitalic-webfont.eot?#iefix") format('embedded-opentype'),
+       url("assets/aileron-heavyitalic-webfont.woff") format('woff'),
+       url("assets/aileron-heavyitalic-webfont.ttf") format('truetype'),
+       url("assets/aileron-heavyitalic-webfont.svg") format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'aileronitalic';
+  src: url("assets/aileron-italic-webfont.eot");
+  src: url("assets/aileron-italic-webfont.eot?#iefix") format('embedded-opentype'),
+       url("assets/aileron-italic-webfont.woff") format('woff'),
+       url("assets/aileron-italic-webfont.ttf") format('truetype'),
+       url("assets/aileron-italic-webfont.svg") format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'aileronlight';
+  src: url("assets/aileron-light-webfont.eot");
+  src: url("assets/aileron-light-webfont.eot?#iefix") format('embedded-opentype'),
+       url("assets/aileron-light-webfont.woff") format('woff'),
+       url("assets/aileron-light-webfont.ttf") format('truetype'),
+       url("assets/aileron-light-webfont.svg") format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'aileronlight_italic';
+  src: url("assets/aileron-lightitalic-webfont.eot");
+  src: url("assets/aileron-lightitalic-webfont.eot?#iefix") format('embedded-opentype'),
+       url("assets/aileron-lightitalic-webfont.woff") format('woff'),
+       url("assets/aileron-lightitalic-webfont.ttf") format('truetype'),
+       url("assets/aileron-lightitalic-webfont.svg") format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'aileronregular';
+  src: url("assets/aileron-regular-webfont.eot");
+  src: url("assets/aileron-regular-webfont.eot?#iefix") format('embedded-opentype'),
+       url("assets/aileron-regular-webfont.woff") format('woff'),
+       url("assets/aileron-regular-webfont.ttf") format('truetype'),
+       url("assets/aileron-regular-webfont.svg") format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'aileronsemibold';
+  src: url("assets/aileron-semibold-webfont.eot");
+  src: url("assets/aileron-semibold-webfont.eot?#iefix") format('embedded-opentype'),
+       url("assets/aileron-semibold-webfont.woff") format('woff'),
+       url("assets/aileron-semibold-webfont.ttf") format('truetype'),
+       url("assets/aileron-semibold-webfont.svg") format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'ostrich_sansmedium';
+  src: url("assets/ostrich-regular-webfont.eot");
+  src: url("assets/ostrich-regular-webfont.eot?#iefix") format('embedded-opentype'),
+       url("assets/ostrich-regular-webfont.woff") format('woff'),
+       url("assets/ostrich-regular-webfont.ttf") format('truetype'),
+       url("assets/ostrich-regular-webfont.svg") format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'ostrich_sansblack';
+  src: url("assets/ostrichsans-black-webfont.eot");
+  src: url("assets/ostrichsans-black-webfont.eot?#iefix") format('embedded-opentype'),
+       url("assets/ostrichsans-black-webfont.woff") format('woff'),
+       url("assets/ostrichsans-black-webfont.ttf") format('truetype'),
+       url("assets/ostrichsans-black-webfont.svg") format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'ostrich_sansheavy';
+  src: url("assets/ostrichsans-heavy-webfont.eot");
+  src: url("assets/ostrichsans-heavy-webfont.eot?#iefix") format('embedded-opentype'),
+       url("assets/ostrichsans-heavy-webfont.woff") format('woff'),
+       url("assets/ostrichsans-heavy-webfont.ttf") format('truetype'),
+       url("assets/ostrichsans-heavy-webfont.svg") format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+* {
+  font-family: "aileronregular", "Open Sans", sans-serif; }
+
+ul {
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.3rem;
+  text-transform: uppercase; }
+
+h1 {
+  font-size: 4rem;
+  font-family: "ostrich_sansheavy", "Oswald";
+  text-transform: uppercase; }
+
+h2 {
+  font-size: 2.2em;
+  line-height: 1.3;
+  font-weight: 800;
+  text-transform: uppercase; }
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 1;
+  text-transform: uppercase; }
+
+h4 {
+  font-size: 0.8rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+h5 {
+  font-size: 1.2rem;
+  font-family: "aileronbold";
+  letter-spacing: 1px; }
+
+p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.4; }
+
+.sidebar .main_nav a {
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  line-height: 2; }
+
+* {
+  box-sizing: border-box;
+  margin: 0; }
+
+body {
+  background: #f4f6f7; }
+
+.sidebar {
+  display: none; }
+
+.toggle {
+  display: none; }
+
+a.toggle {
+  display: block; }
+
+.intro {
+  margin: 0 auto;
+  text-align: center;
+  padding: 3rem 1.2rem; }
+  .intro .intro_content .september {
+    font-size: 1.5rem; }
+  .intro .intro_content h2 {
+    padding-bottom: 1.5rem; }
+
+.dates {
+  margin: 0 auto;
+  text-align: center;
+  background: #bc492e; }
+  .dates .dates_img {
+    text-align: center; }
+  .dates .dates_content {
+    margin: 0 auto; }
+    .dates .dates_content h1 {
+      text-align: center;
+      color: white;
+      padding: 1.5rem 0; }
+    .dates .dates_content .dates_content_details h3,
+    .dates .dates_content .dates_content_details h4,
+    .dates .dates_content .dates_content_details h5 {
+      color: white; }
+
+footer {
+  padding: 3rem 0;
+  text-align: center;
+  background: #000;
+  color: #fff; }
+  footer .sponsors {
+    padding-bottom: 2rem; }
+    footer .sponsors img {
+      padding: 0.5rem; }
+  footer p {
+    font-size: 0.7rem; }
+
+.toggle_nav {
+  margin: 0 auto;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.87);
+  padding-bottom: 3rem;
+  position: fixed;
+  z-index: 1;
+  width: 100%; }
+  .toggle_nav .header_mobile_toggle-img_close {
+    width: 30px;
+    padding-top: 2rem; }
+  .toggle_nav .toggle_logo {
+    margin: 1rem auto;
+    padding-top: 35px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #999; }
+  .toggle_nav .toggle_nav {
+    padding-top: 1rem; }
+  .toggle_nav .utility_nav {
+    display: flex; }
+    .toggle_nav .utility_nav a {
+      font-size: 0.9rem; }
+  .toggle_nav li {
+    padding: 0.5rem; }
+  .toggle_nav p {
+    text-transform: uppercase;
+    padding: 0 4rem;
+    font-size: 1rem; }
+  .toggle_nav .toggle_nav_divider {
+    border-bottom: 1px solid #999;
+    width: 150px;
+    margin: 0 auto;
+    padding-top: 3rem; }
+  .toggle_nav .toggle_mgm_promo {
+    padding-top: 3rem; }
+
+button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: black;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 3px; }
+  button a {
+    font-family: "Spinnaker", sans-serif;
+    color: white; }
+
+.header_mobile {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem; }
+  .header_mobile .logo {
+    padding: 1rem;
+    width: 70px;
+    text-align: center;
+    border: 1px solid #000; }
+  .header_mobile .header_mobile_toggle-img {
+    width: 50px;
+    padding-top: 0.5rem; }
+  .header_mobile .utility_nav {
+    display: flex;
+    align-items: center; }
+    .header_mobile .utility_nav .cart {
+      width: 35px;
+      margin-right: 20px; }
+
+.hero {
+  background: #999;
+  height: 400px;
+  position: relative;
+  text-align: center;
+  padding: 0 1rem; }
+  .hero .hero_video {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: -15px; }
+    .hero .hero_video_header h3 {
+      font-family: 'ostrich_sansmedium';
+      letter-spacing: 1px; }
+    .hero .hero_video_header h1 {
+      color: #e1cb10;
+      line-height: 0.9; }
+    .hero .hero_video .hero_button {
+      align-self: flex-end;
+      margin-bottom: 7px; }
+  .hero .hero_play {
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto; }
+  .hero button {
+    background: none;
+    border: 3px solid #fff;
+    padding: 1rem 2rem; }
+    .hero button a {
+      color: #fff;
+      font-size: 1rem; }
+
+.media_player_mobile {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  z-index: 1; }
+  .media_player_mobile p {
+    font-size: 0.75rem;
+    display: inline-flex;
+    margin-right: 0.5rem; }
+  .media_player_mobile .media_player_text {
+    padding-left: 0.5rem; }
+    .media_player_mobile .media_player_text .playlist {
+      font-size: 0.9rem;
+      letter-spacing: 2px; }
+  .media_player_mobile .media_player_forward {
+    width: 25px;
+    margin: 0.5rem; }
+  .media_player_mobile .media_player_play {
+    width: 20px;
+    margin: 0.5rem; }
+  .media_player_mobile .media_player_back {
+    width: 25px;
+    margin: 0.9rem; }
+
+.intro_content {
+  position: relative;
+  height: 340px; }
+  .intro_content_header h2 {
+    position: absolute;
+    font-family: "Spinnaker", sans-serif; }
+  .intro_content_header.iheart h2 {
+    font-family: "Spinnaker", sans-serif;
+    font-size: 0.9rem;
+    text-transform: none;
+    letter-spacing: 1.5px; }
+  .intro_content_header.music h2 {
+    font-family: "ostrich_sansheavy", "Oswald";
+    font-size: 3.3rem;
+    letter-spacing: 2px;
+    color: #bc492e;
+    left: 18px;
+    top: 5px; }
+  .intro_content_header.festival h2 {
+    font-size: 1.2rem;
+    letter-spacing: 9px;
+    top: 37px;
+    left: 120px; }
+  .intro_content_header_underline {
+    border-bottom: 10px solid #45b2a3;
+    position: relative;
+    top: 70px;
+    width: 92vw; }
+  .intro_content_header.blurb {
+    position: relative;
+    top: 100px;
+    text-align: left; }
+
+.dates {
+  position: relative; }
+  .dates .dates_img .pilots {
+    width: 100%; }
+  .dates .dates_content {
+    padding: 9rem 1rem 3rem;
+    position: relative; }
+    .dates .dates_content h1 {
+      text-align: left;
+      font-size: 9rem;
+      line-height: 8rem;
+      position: absolute;
+      left: -100px;
+      top: -150px;
+      left: 30px; }
+    .dates .dates_content .dates_content_details {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 2rem; }
+      .dates .dates_content .dates_content_details .dates_night {
+        width: 30vw; }
+        .dates .dates_content .dates_content_details .dates_night h3 {
+          letter-spacing: 2px; }
+        .dates .dates_content .dates_content_details .dates_night .village {
+          letter-spacing: 0.5px; }
+      .dates .dates_content .dates_content_details .dates_artists {
+        width: 70vw;
+        padding-left: 1rem; }
+        .dates .dates_content .dates_content_details .dates_artists h5 {
+          text-align: left;
+          font-family: "Spinnaker", sans-serif;
+          font-weight: 100;
+          text-transform: uppercase; }
+  .dates button {
+    border: 5px solid #45b2a3;
+    background: transparent;
+    position: absolute;
+    top: -100px;
+    right: 30px; }
+
+.news {
+  margin: 0 auto;
+  text-align: center; }
+  .news .news_content {
+    margin: 0 auto; }
+    .news .news_content h2 {
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: 800;
+      padding: 1.5rem 0; }
+    .news .news_content_header {
+      margin: 0 1rem; }
+      .news .news_content_header.getthe {
+        margin-left: 0; }
+        .news .news_content_header.getthe h2 {
+          font-family: "Spinnaker", sans-serif;
+          font-size: 0.9rem;
+          text-transform: none;
+          letter-spacing: 1.5px;
+          text-align: left;
+          padding: 0;
+          margin-top: 2rem; }
+      .news .news_content_header.scoop h2 {
+        font-family: 'ostrich_sansheavy';
+        font-size: 4rem;
+        padding: 0;
+        text-align: left;
+        line-height: 0.9; }
+      .news .news_content_header .intro_content_header_underline.newstitle {
+        border-color: #bc492e;
+        top: 0;
+        width: 50%;
+        margin-bottom: 2rem; }
+    .news .news_content .news_article {
+      display: flex;
+      justify-content: space-between;
+      padding: 2rem 1rem 3rem; }
+      .news .news_content .news_article_img img {
+        width: 150px; }
+      .news .news_content .news_article_content {
+        text-align: left;
+        margin-left: 15px; }
+        .news .news_content .news_article_content h5 {
+          font-size: 1.05rem; }
+        .news .news_content .news_article_content p {
+          font-size: 0.9rem;
+          letter-spacing: 0.5px; }
+        .news .news_content .news_article_content button {
+          display: none; }
+    .news .news_content button {
+      margin: 3rem 0;
+      padding: 1rem 1.5rem;
+      background-color: #45b2a3;
+      border: none;
+      font-family: "Spinnaker", sans-serif; }
+
+.sidebar {
+  background: rgba(255, 255, 255, 0.76);
+  position: fixed;
+  left: 0;
+  z-index: 2;
+  height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+  width: 25%; }
+  .sidebar .logo {
+    margin: 2rem auto;
+    text-align: center;
+    padding-top: 35px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000; }
+  .sidebar .main_nav {
+    padding-top: 2rem;
+    padding-bottom: 3rem; }
+    .sidebar .main_nav ul li a {
+      font-family: "Spinnaker", sans-serif; }
+  .sidebar .nav_divider {
+    border-bottom: 1px solid #000;
+    width: 40%;
+    margin: 0 auto; }
+  .sidebar .media_player {
+    padding-top: 2rem;
+    padding-bottom: 3rem; }
+    .sidebar .media_player p {
+      font-family: 'aileronbold';
+      font-size: 1rem;
+      text-transform: capitalize; }
+    .sidebar .media_player .song_title {
+      font-size: 0.8rem;
+      font-family: "aileronregular", "Open Sans", sans-serif; }
+    .sidebar .media_player .media_player_buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .sidebar .media_player .media_player_buttons img {
+        width: 20px;
+        margin: 0.5rem; }
+      .sidebar .media_player .media_player_buttons .media_player_play {
+        margin-left: 1rem; }
+  .sidebar .mgm_promo {
+    padding: 0 2rem; }
+    .sidebar .mgm_promo p {
+      line-height: 1.2; }
+    .sidebar .mgm_promo button {
+      margin: 3rem 0;
+      padding: 1rem 1.5rem;
+      background-color: #45b2a3;
+      border: none;
+      font-family: "Spinnaker", sans-serif;
+      margin: 1rem 0; }
+      .sidebar .mgm_promo button a {
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+        color: white; }
+
+.hero.festival {
+  padding: 0;
+  background-color: transparent;
+  height: auto; }
+  .hero.festival .hero_img {
+    position: relative; }
+    .hero.festival .hero_img img {
+      width: 100%; }
+    .hero.festival .hero_img h1 {
+      color: #e1cb10;
+      font-size: 5rem;
+      line-height: 0.9;
+      position: absolute;
+      left: 25px;
+      bottom: 40px; }
+
+.tmobile {
+  margin: 0 auto;
+  text-align: center; }
+  .tmobile .tmobile_content {
+    padding: 2rem 1rem; }
+    .tmobile .tmobile_content_details h1 {
+      text-transform: uppercase;
+      padding: 1rem 0 0.5rem; }
+    .tmobile .tmobile_content_details p {
+      font-size: 1rem; }
+    .tmobile .tmobile_content .tmobile_button button {
+      margin: 3rem 0;
+      padding: 1rem 1.5rem;
+      background-color: #45b2a3;
+      border: none;
+      font-family: "Spinnaker", sans-serif; }
+  .tmobile .tmobile_map {
+    margin-bottom: 3rem; }
+    .tmobile .tmobile_map img {
+      width: 100%; }
+  .tmobile .tmobile_parking {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+    height: 300px;
+    background-color: #e1cb10; }
+    .tmobile .tmobile_parking .tmobile_parking_img {
+      width: 150px;
+      height: 150px;
+      border: 5px solid #45b2a3;
+      padding: 1.2rem 2rem;
+      border-radius: 75px; }
+      .tmobile .tmobile_parking .tmobile_parking_img img {
+        width: 75%; }
+      .tmobile .tmobile_parking .tmobile_parking_img .tmobile_parking_img_text p {
+        font-family: "Spinnaker", sans-serif;
+        font-size: 0.8rem;
+        line-height: 1.1;
+        text-transform: uppercase;
+        margin-top: 0.5rem; }
+      .tmobile .tmobile_parking .tmobile_parking_img button {
+        display: none; }
+    .tmobile .tmobile_parking .tmobile_parking_content {
+      width: 50vw;
+      max-width: 250px;
+      align-self: center; }
+      .tmobile .tmobile_parking .tmobile_parking_content h3 {
+        padding-top: 0.5rem;
+        line-height: 1.2;
+        margin-bottom: 0.5rem; }
+      .tmobile .tmobile_parking .tmobile_parking_content button {
+        margin: 3rem 0;
+        padding: 1rem 1.5rem;
+        background-color: #45b2a3;
+        border: none;
+        font-family: "Spinnaker", sans-serif;
+        margin-top: 0;
+        margin-bottom: 0; }
+        .tmobile .tmobile_parking .tmobile_parking_content button a {
+          font-size: 1rem; }
+      .tmobile .tmobile_parking .tmobile_parking_content .parking_content_desktop {
+        display: none; }
+
+.mgm_accomodations {
+  text-align: center;
+  position: relative; }
+  .mgm_accomodations .mgm-img {
+    overflow-x: hidden; }
+    .mgm_accomodations .mgm-img img {
+      width: 120%; }
+  .mgm_accomodations .mgm_content {
+    background: #f4f6f7;
+    position: absolute;
+    margin: 0 auto;
+    width: 70%;
+    bottom: -125px;
+    left: 0;
+    right: 0;
+    padding: 2rem 0; }
+    .mgm_accomodations .mgm_content h3 {
+      font-family: "ostrich_sansheavy", "Oswald";
+      font-size: 2.2em;
+      text-transform: uppercase;
+      letter-spacing: 1.5px; }
+    .mgm_accomodations .mgm_content h4 {
+      font-family: "Spinnaker", sans-serif;
+      font-size: 0.8rem; }
+    .mgm_accomodations .mgm_content button {
+      font-size: 0.8rem;
+      margin: 3rem 0;
+      padding: 1rem 1.5rem;
+      background-color: #45b2a3;
+      border: none;
+      font-family: "Spinnaker", sans-serif;
+      margin: 0.5rem 0 0; }
+      .mgm_accomodations .mgm_content button a {
+        font-size: 1rem; }
+
+.footer_festival {
+  margin-top: 200px; }
+
+@media screen and (max-width: 399px) {
+  p {
+    font-size: 1rem;
+    line-height: 1.5; }
+  .hero .header_mobile {
+    padding: 1rem 0; }
+  .hero .hero_video {
+    flex-direction: column;
+    bottom: -60px; }
+    .hero .hero_video_header h3 {
+      font-size: 1.2rem; }
+    .hero .hero_video_header h1 {
+      font-size: 3rem; }
+  .intro {
+    margin-bottom: 1rem; }
+  .dates .dates_content {
+    padding-top: 6rem; }
+    .dates .dates_content h1 {
+      font-size: 5rem;
+      line-height: 1;
+      top: -110px; }
+    .dates .dates_content .dates_content_details {
+      flex-direction: column;
+      text-align: left;
+      padding-bottom: 2.5rem; }
+      .dates .dates_content .dates_content_details .dates_night,
+      .dates .dates_content .dates_content_details .dates_artists {
+        width: 100%; }
+      .dates .dates_content .dates_content_details .dates_artists {
+        padding-left: 0;
+        padding-top: 1rem; }
+        .dates .dates_content .dates_content_details .dates_artists h5 {
+          font-size: 0.9rem; }
+    .dates .dates_content button {
+      top: -90px; }
+  .news_content .news_article {
+    flex-direction: column; }
+    .news_content .news_article .news_article_img img {
+      width: 100%; }
+    .news_content .news_article .news_article_content {
+      margin-left: 0; } }
+
+@media screen and (min-width: 500px) {
+  .dates .dates_img img {
+    width: 100%; }
+  .dates .dates_content {
+    max-width: 700px;
+    padding: 10rem 1rem 3rem; }
+    .dates .dates_content h1 {
+      left: 50px;
+      top: -150px; }
+  .dates button {
+    right: 50px; }
+  .news .news_content_header.getthe h2 {
+    font-size: 1.2rem; }
+  .news .news_content_header.scoop h2 {
+    font-size: 5rem; }
+  .news .news_content .news_article_img img {
+    width: 200px; }
+  .news .news_content .news_article_content h5 {
+    font-size: 1.2rem; }
+  .news .news_content .news_article_content p {
+    font-size: 1.2rem; }
+  .hero.festival .hero_img h1 {
+    font-size: 7rem;
+    left: 40px; } }
+
+@media screen and (min-width: 768px) {
+  .hero {
+    padding: 0 4rem; }
+    .hero .hero_video {
+      bottom: -80px; }
+      .hero .hero_video_content {
+        display: flex;
+        justify-content: space-between;
+        width: 100%; }
+  .dates_content_details .dates_night h4 {
+    font-size: 1rem;
+    letter-spacing: 1.1px; }
+  .dates_content_details .dates_night h3 {
+    font-size: 2rem; }
+  .news_content,
+  .sponsors,
+  .tmobile_content_details {
+    max-width: 900px;
+    margin: 0 auto; }
+  .intro {
+    margin: 2.5rem 2rem;
+    position: relative; }
+    .intro .intro_content {
+      width: 700px;
+      margin: 0 auto;
+      height: 340px; }
+      .intro .intro_content_header.iheart h2 {
+        font-size: 1.2rem;
+        letter-spacing: 1.5px; }
+      .intro .intro_content_header.music h2 {
+        font-size: 7rem;
+        letter-spacing: 2px;
+        left: 18px;
+        top: -5px; }
+      .intro .intro_content_header.festival h2 {
+        font-size: 2rem;
+        letter-spacing: 17px;
+        top: 70px;
+        left: 230px; }
+      .intro .intro_content_header_underline {
+        top: 115px;
+        width: 650px; }
+      .intro .intro_content_header.blurb {
+        top: 135px; }
+  .tmobile_content_details p {
+    line-height: 1.5; }
+  .tmobile .tmobile_parking {
+    justify-content: space-around;
+    padding: 3rem 9rem; }
+    .tmobile .tmobile_parking .tmobile_parking_img {
+      width: 200px;
+      height: 200px;
+      border-radius: 100px; }
+  .dates .dates_content {
+    max-width: 900px;
+    padding: 10rem 1rem 3rem; }
+    .dates .dates_content h1 {
+      left: 50px;
+      top: -150px; }
+  .news .news_content {
+    max-width: 900px; }
+    .news .news_content .news_article {
+      padding: 0;
+      margin: 5rem 3rem; }
+      .news .news_content .news_article_img img {
+        width: 300px; }
+      .news .news_content .news_article_content h5 {
+        font-size: 1.4rem;
+        margin-bottom: 1rem; }
+      .news .news_content .news_article_content p {
+        font-size: 1.2rem; }
+  .hero {
+    height: 400px; }
+  .hero.festival .hero_img h1 {
+    font-size: 9rem;
+    left: 85px;
+    bottom: 60px; }
+  .mgm_accomodations .mgm_content {
+    bottom: -160px; }
+    .mgm_accomodations .mgm_content .mgm_content_details h3 {
+      font-size: 4rem; }
+    .mgm_accomodations .mgm_content .mgm_content_details h4 {
+      font-size: 1.2rem;
+      letter-spacing: 1.7px; }
+    .mgm_accomodations .mgm_content .mgm_content_details button {
+      margin-top: 2rem; }
+  .footer_festival {
+    margin-top: 300px; } }
+
+@media screen and (min-width: 1024px) {
+  .hero .hero_video_content {
+    width: 900px;
+    margin: 0 auto; }
+  .tmobile_parking {
+    padding: 3rem 12rem; } }
+
+@media screen and (min-width: 1249px) {
+  .header_mobile .logo,
+  .header_mobile .header_mobile_toggle-img,
+  .header_mobile .utility_nav {
+    display: none; }
+  .sidebar {
+    display: block; }
+  .media_player_mobile {
+    display: none; }
+  .hero .hero_button {
+    right: 5rem;
+    left: 70%; }
+  .hero {
+    height: 700px; }
+    .hero .hero_video {
+      width: calc(100% - 25%);
+      float: right;
+      padding: 2rem 3rem;
+      bottom: -250px; }
+      .hero .hero_video_content {
+        width: 100%; }
+        .hero .hero_video_content .hero_video_header h3 {
+          font-size: 2rem; }
+        .hero .hero_video_content .hero_video_header h1 {
+          font-size: 7rem; }
+  .intro,
+  .dates,
+  .news,
+  .tmobile_content,
+  .tmobile_map,
+  .tmobile_parking,
+  .mgm_accomodations,
+  footer {
+    width: calc(100% - 25%);
+    float: right; }
+  .intro {
+    margin: 5rem 0;
+    position: relative; }
+    .intro .intro_content {
+      max-width: 900px;
+      position: relative;
+      height: 340px; }
+      .intro .intro_content_header.iheart h2 {
+        font-size: 1.5rem;
+        letter-spacing: 1.5px; }
+      .intro .intro_content_header.music h2 {
+        font-size: 7rem;
+        letter-spacing: 2px;
+        left: 18px;
+        top: 0; }
+      .intro .intro_content_header.festival h2 {
+        font-size: 2.5rem;
+        letter-spacing: 17px;
+        top: 67px;
+        left: 230px; }
+      .intro .intro_content_header_underline {
+        top: 115px;
+        width: 775px; }
+      .intro .intro_content_header.blurb {
+        top: 140px;
+        right: -230px;
+        width: 500px;
+        text-align: left; }
+      .intro .intro_content .intro_content_header_background {
+        background: #e1cb10;
+        width: 510px;
+        height: 400px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: -1; }
+    .intro .intro_content_header_background.two {
+      background: #e1cb10;
+      width: 711px;
+      height: 400px;
+      position: absolute;
+      right: 0;
+      top: 48px;
+      z-index: -1; }
+  .dates .dates_content {
+    padding: 4.2rem 7rem 9rem; }
+    .dates .dates_content h1 {
+      left: 25px; }
+  .dates button {
+    top: 475px;
+    right: 0; }
+  .news_content button {
+    font-size: 1rem; }
+  .hero.festival .hero_img h1 {
+    left: 80%; }
+  .tmobile .tmobile_map {
+    margin-bottom: 5rem; }
+  .tmobile .tmobile_parking {
+    background-color: transparent;
+    margin: 0 auto;
+    padding: 4rem 0 0; }
+    .tmobile .tmobile_parking .tmobile_parking_img {
+      height: 300px;
+      width: 300px;
+      border-radius: 150px;
+      order: 2;
+      margin-right: 2rem; }
+      .tmobile .tmobile_parking .tmobile_parking_img img {
+        width: 50%; }
+      .tmobile .tmobile_parking .tmobile_parking_img .tmobile_parking_img_text p {
+        font-size: 1rem; }
+      .tmobile .tmobile_parking .tmobile_parking_img button {
+        display: block;
+        margin: 3rem 0;
+        padding: 1rem 1.5rem;
+        background-color: #45b2a3;
+        border: none;
+        font-family: "Spinnaker", sans-serif;
+        margin: 1rem auto; }
+    .tmobile .tmobile_parking .tmobile_parking_content {
+      max-width: 50vw;
+      margin-right: 1rem; }
+      .tmobile .tmobile_parking .tmobile_parking_content .parking_content_mobile {
+        display: none; }
+      .tmobile .tmobile_parking .tmobile_parking_content .parking_content_desktop {
+        display: block;
+        text-align: left;
+        background: #e1cb10;
+        padding: 2rem 2rem 5rem; }
+        .tmobile .tmobile_parking .tmobile_parking_content .parking_content_desktop .parking_desktop_header {
+          font-family: "ostrich_sansheavy", "Oswald";
+          font-size: 4rem;
+          letter-spacing: 1px; }
+        .tmobile .tmobile_parking .tmobile_parking_content .parking_content_desktop .reserved {
+          font-family: "Spinnaker", sans-serif;
+          font-size: 1.5rem;
+          padding-top: 0.5rem; }
+  .mgm_accomodations {
+    margin-top: 4rem; }
+    .mgm_accomodations .mgm_content {
+      bottom: -175px; }
+      .mgm_accomodations .mgm_content h3 {
+        font-size: 2.3rem; }
+      .mgm_accomodations .mgm_content h4 {
+        font-size: 1.1rem;
+        letter-spacing: 4px; }
+      .mgm_accomodations .mgm_content button {
+        margin-top: 3rem;
+        font-size: 1.1rem;
+        padding: 1rem 2rem; }
+  footer {
+    margin-top: 400px; } }
