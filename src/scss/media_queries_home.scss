@@ -333,6 +333,16 @@
     }
   }
 
+  footer {
+    .sponsors {
+      max-width: 700px;
+
+      img {
+        margin: 0 0.5rem;
+      }
+    }
+  }
+
   .footer_festival {
     margin-top: 300px;
   }
@@ -360,6 +370,11 @@
     .utility_nav {
       display: none;
     }
+  }
+
+  .header_mobile {
+    padding: 0;
+    margin: 0;
   }
 
   .sidebar {
@@ -509,10 +524,6 @@
 
   .hero.festival {
     .hero_img {
-      // img {
-      //   margin-top: -300px;
-      // }
-
       h1 {
         left: 80%;
       }
@@ -520,10 +531,6 @@
   }
 
   .tmobile {
-    // background: #f4f6f7;
-    // margin-top: -250px;
-    // position: relative;
-    // z-index: 1;
     .tmobile_map {
       margin-bottom: 5rem;
     }
@@ -614,5 +621,9 @@
 
   footer {
     margin-top: 400px;
+  }
+
+  .footer_festival {
+    padding-bottom: 3rem;
   }
 }

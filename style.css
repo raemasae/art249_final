@@ -852,6 +852,10 @@ footer {
       letter-spacing: 1.7px; }
     .mgm_accomodations .mgm_content .mgm_content_details button {
       margin-top: 2rem; }
+  footer .sponsors {
+    max-width: 700px; }
+    footer .sponsors img {
+      margin: 0 0.5rem; }
   .footer_festival {
     margin-top: 300px; } }
 
@@ -867,6 +871,9 @@ footer {
   .header_mobile .header_mobile_toggle-img,
   .header_mobile .utility_nav {
     display: none; }
+  .header_mobile {
+    padding: 0;
+    margin: 0; }
   .sidebar {
     display: block; }
   .media_player_mobile {
@@ -1008,4 +1015,6 @@ footer {
         font-size: 1.1rem;
         padding: 1rem 2rem; }
   footer {
-    margin-top: 400px; } }
+    margin-top: 400px; }
+  .footer_festival {
+    padding-bottom: 3rem; } }
