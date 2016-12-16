@@ -418,7 +418,9 @@ button {
 .dates {
   position: relative; }
   .dates .dates_img .pilots {
-    width: 100%; }
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover; }
   .dates .dates_content {
     padding: 9rem 1rem 3rem;
     position: relative; }
@@ -519,7 +521,8 @@ button {
   height: 100vh;
   margin: 0 auto;
   text-align: center;
-  width: 25%; }
+  width: 25%;
+  max-width: 380px; }
   .sidebar .logo {
     margin-top: 5rem;
     margin-bottom: 3rem; }
@@ -903,7 +906,7 @@ footer {
     width: calc(100% - 25%);
     float: right; }
   .intro {
-    margin: 5rem 0;
+    margin: 5rem 0 7rem;
     position: relative; }
     .intro .intro_content {
       max-width: 900px;
@@ -961,11 +964,14 @@ footer {
   .hero.festival .hero_img h1 {
     left: 80%; }
   .tmobile .tmobile_map {
-    margin-bottom: 5rem; }
+    margin-bottom: 0; }
+    .tmobile .tmobile_map img {
+      vertical-align: text-bottom; }
   .tmobile .tmobile_parking {
     background-color: transparent;
     margin: 0 auto;
-    padding: 4rem 0 0; }
+    padding: 0;
+    height: auto; }
     .tmobile .tmobile_parking .tmobile_parking_img {
       height: 300px;
       width: 300px;
@@ -993,7 +999,7 @@ footer {
         display: block;
         text-align: left;
         background: #e1cb10;
-        padding: 2rem 2rem 5rem; }
+        padding: 5rem 2rem 7rem; }
         .tmobile .tmobile_parking .tmobile_parking_content .parking_content_desktop .parking_desktop_header {
           font-family: "ostrich_sansheavy", "Oswald";
           font-size: 4rem;
@@ -1003,7 +1009,7 @@ footer {
           font-size: 1.5rem;
           padding-top: 0.5rem; }
   .mgm_accomodations {
-    margin-top: 4rem; }
+    margin-top: 0; }
     .mgm_accomodations .mgm_content {
       bottom: -175px; }
       .mgm_accomodations .mgm_content h3 {
@@ -1015,7 +1021,6 @@ footer {
         margin-top: 3rem;
         font-size: 1.1rem;
         padding: 1rem 2rem; }
-  footer {
-    margin-top: 400px; }
   .footer_festival {
+    margin-top: 400px;
     padding-bottom: 3rem; } }

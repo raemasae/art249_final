@@ -430,7 +430,7 @@
   }
 
   .intro {
-    margin: 5rem 0;
+    margin: 5rem 0 7rem;
     position: relative;
 
     .intro_content {
@@ -537,13 +537,18 @@
 
   .tmobile {
     .tmobile_map {
-      margin-bottom: 5rem;
+      margin-bottom: 0;
+
+      img {
+        vertical-align: text-bottom;
+      }
     }
 
     .tmobile_parking {
       background-color: transparent;
       margin: 0 auto;
-      padding: 4rem 0 0;
+      padding: 0;
+      height: auto;
 
       .tmobile_parking_img {
         height: 300px;
@@ -583,7 +588,7 @@
           display: block;
           text-align: left;
           background: $secondary-color;
-          padding: 2rem 2rem 5rem;
+          padding: 5rem 2rem 7rem;
 
           .parking_desktop_header {
             font-family: $font-family-headers;
@@ -602,7 +607,7 @@
   }
 
   .mgm_accomodations {
-    margin-top: 4rem;
+    margin-top: 0;
 
     .mgm_content {
       bottom: -175px;
@@ -624,11 +629,8 @@
     }
   }
 
-  footer {
-    margin-top: 400px;
-  }
-
   .footer_festival {
+    margin-top: 400px;
     padding-bottom: 3rem;
   }
 }
