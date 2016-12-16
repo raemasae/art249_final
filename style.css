@@ -261,12 +261,9 @@ footer {
   .toggle_nav .header_mobile_toggle-img_close {
     width: 30px;
     padding-top: 2rem; }
-  .toggle_nav .toggle_logo {
-    margin: 1rem auto;
-    padding-top: 35px;
-    width: 100px;
-    height: 100px;
-    border: 1px solid #999; }
+  .toggle_nav .toggle_logo img {
+    width: 50px;
+    margin: 2rem 0 1rem; }
   .toggle_nav .toggle_nav {
     padding-top: 1rem; }
   .toggle_nav .utility_nav {
@@ -285,12 +282,15 @@ footer {
     margin: 0 auto;
     padding-top: 3rem; }
   .toggle_nav .toggle_mgm_promo {
-    padding-top: 3rem; }
+    padding-top: 3rem;
+    max-width: 350px;
+    margin: 0 auto; }
 
 button {
   margin-top: 1rem;
   padding: 0.5rem 1rem;
-  background-color: black;
+  background-color: #45b2a3;
+  border: none;
   font-size: 0.8rem;
   text-transform: uppercase;
   color: white;
@@ -521,12 +521,10 @@ button {
   text-align: center;
   width: 25%; }
   .sidebar .logo {
-    margin: 2rem auto;
-    text-align: center;
-    padding-top: 35px;
-    width: 100px;
-    height: 100px;
-    border: 1px solid #000; }
+    margin-top: 5rem;
+    margin-bottom: 3rem; }
+    .sidebar .logo img {
+      width: 70px; }
   .sidebar .main_nav {
     padding-top: 2rem;
     padding-bottom: 3rem; }
@@ -957,6 +955,9 @@ footer {
     right: 0; }
   .news_content button {
     font-size: 1rem; }
+  .hero.festival .hero_img img {
+    height: 500px;
+    object-fit: cover; }
   .hero.festival .hero_img h1 {
     left: 80%; }
   .tmobile .tmobile_map {

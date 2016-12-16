@@ -524,6 +524,11 @@
 
   .hero.festival {
     .hero_img {
+      img {
+        height: 500px;
+        object-fit: cover;
+      }
+
       h1 {
         left: 80%;
       }
