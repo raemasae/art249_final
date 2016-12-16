@@ -1,17 +1,13 @@
 .hero {
-  background: #999;
-  height: 400px;
+  background-image: url('images/video.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
   position: relative;
   text-align: center;
   padding: 0 1rem;
+  max-height: 600px;
 
   .hero_video {
-    text-align: left;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    bottom: -15px;
-
     &_header {
       h3 {
         font-family: 'ostrich_sansmedium';

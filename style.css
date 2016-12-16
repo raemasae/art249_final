@@ -316,26 +316,22 @@ button {
       margin-right: 20px; }
 
 .hero {
-  background: #999;
-  height: 400px;
+  background-image: url("images/video.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   position: relative;
   text-align: center;
-  padding: 0 1rem; }
-  .hero .hero_video {
-    text-align: left;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    bottom: -15px; }
-    .hero .hero_video_header h3 {
-      font-family: 'ostrich_sansmedium';
-      letter-spacing: 1px; }
-    .hero .hero_video_header h1 {
-      color: #e1cb10;
-      line-height: 0.9; }
-    .hero .hero_video .hero_button {
-      align-self: flex-end;
-      margin-bottom: 7px; }
+  padding: 0 1rem;
+  max-height: 600px; }
+  .hero .hero_video_header h3 {
+    font-family: 'ostrich_sansmedium';
+    letter-spacing: 1px; }
+  .hero .hero_video_header h1 {
+    color: #e1cb10;
+    line-height: 0.9; }
+  .hero .hero_video .hero_button {
+    align-self: flex-end;
+    margin-bottom: 7px; }
   .hero .hero_play {
     width: 40px;
     height: 50px;
@@ -689,61 +685,82 @@ button {
 .footer_festival {
   margin-top: 200px; }
 
-.tmobile.experience .news_content_header {
-  margin: 0 1rem; }
-  .tmobile.experience .news_content_header.getthe {
-    margin-left: 0; }
-    .tmobile.experience .news_content_header.getthe h2 {
-      font-family: "Spinnaker", sans-serif;
-      font-size: 0.9rem;
-      text-transform: none;
-      letter-spacing: 1.5px;
-      text-align: left;
+.tmobile.experience {
+  margin: 3rem 0; }
+  .tmobile.experience .news_content_header {
+    margin: 0 1rem; }
+    .tmobile.experience .news_content_header.getthe {
+      margin-left: 0; }
+      .tmobile.experience .news_content_header.getthe h2 {
+        font-family: "Spinnaker", sans-serif;
+        font-size: 0.9rem;
+        text-transform: none;
+        letter-spacing: 1.5px;
+        text-align: left;
+        padding: 0;
+        margin-top: 2rem; }
+    .tmobile.experience .news_content_header.scoop h2 {
+      font-family: 'ostrich_sansheavy';
+      font-size: 4rem;
       padding: 0;
-      margin-top: 2rem; }
-  .tmobile.experience .news_content_header.scoop h2 {
-    font-family: 'ostrich_sansheavy';
-    font-size: 4rem;
-    padding: 0;
-    text-align: left;
-    line-height: 0.9; }
-  .tmobile.experience .news_content_header .intro_content_header_underline.newstitle {
-    border-color: #bc492e;
-    top: 0;
-    width: 50%;
-    margin-bottom: 2rem; }
-
-.tmobile.experience .tmobile_arena {
-  display: flex;
-  flex-direction: column; }
-  .tmobile.experience .tmobile_arena .tmobile_arena_imgs {
-    position: relative;
+      text-align: left;
+      line-height: 0.9; }
+    .tmobile.experience .news_content_header .intro_content_header_underline.newstitle {
+      border-color: #bc492e;
+      top: 0;
+      width: 50%;
+      margin-bottom: 2rem; }
+  .tmobile.experience .tmobile_arena {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
-    overflow-x: hidden; }
-    .tmobile.experience .tmobile_arena .tmobile_arena_imgs img {
-      width: 350px;
-      height: 250px;
-      object-fit: cover;
-      margin-bottom: 1rem; }
-    .tmobile.experience .tmobile_arena .tmobile_arena_imgs .img_hover {
-      background: rgba(0, 0, 0, 0.25);
-      position: absolute;
-      width: 350px;
-      height: 250px;
+    margin-bottom: 5rem; }
+    .tmobile.experience .tmobile_arena .tmobile_arena_imgs {
+      position: relative;
       display: flex;
-      justify-content: center; }
-      .tmobile.experience .tmobile_arena .tmobile_arena_imgs .img_hover h2 {
-        color: white;
-        font-size: 2rem;
-        line-height: 1;
-        letter-spacing: 5px;
-        align-self: center;
-        border: 5px solid #45b2a3;
-        height: 200px;
-        width: 300px;
-        padding: 70px 0; }
+      flex-direction: column;
+      margin: 0 auto; }
+      .tmobile.experience .tmobile_arena .tmobile_arena_imgs img {
+        width: 350px;
+        height: 250px;
+        object-fit: cover;
+        margin-bottom: 1rem; }
+      .tmobile.experience .tmobile_arena .tmobile_arena_imgs .background {
+        background: rgba(0, 0, 0, 0.25);
+        position: absolute;
+        width: 350px;
+        height: 250px;
+        display: flex;
+        justify-content: center; }
+        .tmobile.experience .tmobile_arena .tmobile_arena_imgs .background .img_hover {
+          display: flex; }
+          .tmobile.experience .tmobile_arena .tmobile_arena_imgs .background .img_hover h2 {
+            color: white;
+            font-size: 2rem;
+            line-height: 1;
+            letter-spacing: 5px;
+            align-self: center;
+            border: 5px solid #45b2a3;
+            height: 200px;
+            width: 300px;
+            padding: 70px 0; }
+        .tmobile.experience .tmobile_arena .tmobile_arena_imgs .background .hover_content {
+          display: none;
+          text-align: left;
+          margin: 3rem 1rem 1rem; }
+          .tmobile.experience .tmobile_arena .tmobile_arena_imgs .background .hover_content h4 {
+            color: white;
+            font-weight: 700;
+            font-size: 2rem;
+            margin-bottom: 1rem; }
+          .tmobile.experience .tmobile_arena .tmobile_arena_imgs .background .hover_content p {
+            color: white;
+            text-transform: none; }
+      .tmobile.experience .tmobile_arena .tmobile_arena_imgs a:hover {
+        background: rgba(0, 0, 0, 0.5); }
+        .tmobile.experience .tmobile_arena .tmobile_arena_imgs a:hover .hover_content {
+          display: block; }
+        .tmobile.experience .tmobile_arena .tmobile_arena_imgs a:hover .img_hover {
+          display: none; }
 
 .hero.festival .mgm_content {
   background: #e1cb10;
@@ -768,13 +785,36 @@ button {
 
 .experience_photos {
   display: flex;
-  flex-direction: column; }
-  .experience_photos .experience_photos_imgs {
-    display: flex; }
-    .experience_photos .experience_photos_imgs img {
-      width: 150px;
-      height: 100px;
-      object-fit: cover; }
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 5rem 1rem; }
+  .experience_photos h2 {
+    font-family: 'ostrich_sansheavy';
+    font-size: 4rem;
+    padding: 0;
+    text-align: left;
+    line-height: 0.9;
+    text-align: center;
+    margin-bottom: 1rem; }
+  .experience_photos_gallery {
+    margin: 0 auto; }
+    .experience_photos_gallery .experience_photos_imgs {
+      display: flex;
+      justify-content: space-around; }
+      .experience_photos_gallery .experience_photos_imgs img {
+        width: calc(50% - 0.5rem);
+        height: 100px;
+        object-fit: cover; }
+    .experience_photos_gallery .experience_photos_imgs.large img {
+      width: calc(100% - 0.5rem);
+      height: 200px;
+      margin: 1rem 0; }
+  .experience_photos a {
+    margin: 2rem auto; }
+    .experience_photos a button {
+      font-size: 1.2rem;
+      padding: 1rem 1.5rem; }
 
 footer {
   padding-bottom: 150px; }
@@ -851,7 +891,11 @@ footer {
     font-size: 1.2rem; }
   .hero.festival .hero_img h1 {
     font-size: 7rem;
-    left: 40px; } }
+    left: 40px; }
+  .experience_photos .experience_photos_imgs img {
+    height: 200px; }
+  .experience_photos .experience_photos_imgs.large img {
+    height: 350px; } }
 
 @media screen and (min-width: 768px) {
   .hero {
@@ -939,6 +983,45 @@ footer {
       letter-spacing: 1.7px; }
     .mgm_accomodations .mgm_content .mgm_content_details button {
       margin-top: 2rem; }
+  .tmobile.experience .news_content_header {
+    margin: 0 3rem; }
+  .tmobile.experience .tmobile_arena {
+    flex-direction: row;
+    justify-content: center; }
+    .tmobile.experience .tmobile_arena .tmobile_arena_imgs {
+      margin: 0; }
+      .tmobile.experience .tmobile_arena .tmobile_arena_imgs img {
+        width: 275px;
+        height: 450px; }
+      .tmobile.experience .tmobile_arena .tmobile_arena_imgs .background {
+        width: 275px;
+        height: 450px;
+        z-index: 1; }
+        .tmobile.experience .tmobile_arena .tmobile_arena_imgs .background .img_hover h2 {
+          font-size: 1.5rem;
+          width: 225px;
+          align-self: flex-end;
+          margin-bottom: 3rem; }
+        .tmobile.experience .tmobile_arena .tmobile_arena_imgs .background .hover_content {
+          margin-top: 9rem; }
+  .hero.festival .mgm_content.experience {
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: -60px;
+    position: relative;
+    left: 0;
+    right: 0; }
+    .hero.festival .mgm_content.experience .mgm_content_details {
+      padding: 0 2.5rem; }
+      .hero.festival .mgm_content.experience .mgm_content_details h3 {
+        width: 100%;
+        position: static;
+        background: none;
+        margin-top: 0;
+        font-size: 3rem;
+        padding: 0 0 1.5rem; }
+  .experience_photos_gallery {
+    max-width: 900px; }
   footer .sponsors {
     max-width: 700px; }
     footer .sponsors img {
@@ -951,7 +1034,9 @@ footer {
     width: 900px;
     margin: 0 auto; }
   .tmobile_parking {
-    padding: 3rem 12rem; } }
+    padding: 3rem 12rem; }
+  .tmobile.experience .news_content_header {
+    margin: 0 5rem; } }
 
 @media screen and (min-width: 1249px) {
   .header_mobile .logo,
@@ -976,7 +1061,8 @@ footer {
       padding: 2rem 3rem;
       bottom: -250px; }
       .hero .hero_video_content {
-        width: 100%; }
+        width: 100%;
+        margin-top: 200px; }
         .hero .hero_video_content .hero_video_header h3 {
           font-size: 2rem; }
         .hero .hero_video_content .hero_video_header h1 {
@@ -988,6 +1074,9 @@ footer {
   .tmobile_map,
   .tmobile_parking,
   .mgm_accomodations,
+  .tmobile.experience,
+  .experience_mgm,
+  .experience_photos,
   footer {
     width: calc(100% - 25%);
     float: right; }
@@ -1094,6 +1183,8 @@ footer {
           font-family: "Spinnaker", sans-serif;
           font-size: 1.5rem;
           padding-top: 0.5rem; }
+  .hero.festival .hero_img.experience_hero img {
+    height: 600px; }
   .mgm_accomodations {
     margin-top: 0; }
     .mgm_accomodations .mgm_content {

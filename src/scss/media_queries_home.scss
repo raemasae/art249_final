@@ -149,6 +149,20 @@
       }
     }
   }
+
+  .experience_photos {
+    .experience_photos_imgs {
+      img {
+        height: 200px;
+      }
+    }
+
+    .experience_photos_imgs.large {
+      img {
+        height: 350px;
+      }
+    }
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -333,6 +347,75 @@
     }
   }
 
+  .tmobile.experience {
+    .news_content_header {
+      margin: 0 3rem;
+    }
+
+    .tmobile_arena {
+      flex-direction: row;
+      justify-content: center;
+
+      .tmobile_arena_imgs {
+        margin: 0;
+
+        img {
+          width: 275px;
+          height: 450px;
+        }
+
+        .background {
+          width: 275px;
+          height: 450px;
+          z-index: 1;
+
+          .img_hover {
+            h2 {
+              font-size: 1.5rem;
+              width: 225px;
+              align-self: flex-end;
+              margin-bottom: 3rem;
+            }
+          }
+
+          .hover_content {
+            margin-top: 9rem;
+          }
+        }
+      }
+    }
+  }
+
+  .hero.festival {
+    .mgm_content.experience {
+      max-width: 700px;
+      margin: 0 auto;
+      margin-top: -60px;
+      position: relative;
+      left: 0;
+      right: 0;
+
+      .mgm_content_details {
+        padding: 0 2.5rem;
+
+        h3 {
+          width: 100%;
+          position: static;
+          background: none;
+          margin-top: 0;
+          font-size: 3rem;
+          padding: 0 0 1.5rem;
+        }
+      }
+    }
+  }
+
+  .experience_photos {
+    &_gallery {
+      max-width: 900px;
+    }
+  }
+
   footer {
     .sponsors {
       max-width: 700px;
@@ -360,6 +443,12 @@
 
   .tmobile_parking {
     padding: 3rem 12rem;
+  }
+
+  .tmobile.experience {
+    .news_content_header {
+      margin: 0 5rem;
+    }
   }
 }
 
@@ -403,6 +492,7 @@
 
       &_content {
         width: 100%;
+        margin-top: 200px;
 
         .hero_video_header {
           h3 {
@@ -424,6 +514,9 @@
   .tmobile_map,
   .tmobile_parking,
   .mgm_accomodations,
+  .tmobile.experience,
+  .experience_mgm,
+  .experience_photos,
   footer {
     width: calc(100% - 25%);
     float: right;
@@ -602,6 +695,14 @@
             padding-top: 0.5rem;
           }
         }
+      }
+    }
+  }
+
+  .hero.festival {
+    .hero_img.experience_hero {
+      img {
+        height: 600px;
       }
     }
   }
