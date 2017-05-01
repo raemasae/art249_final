@@ -74,5 +74,9 @@
     button {
       @include green-button;
     }
+
+    button:hover {
+      @include green-button-hover;
+    }
   }
 }

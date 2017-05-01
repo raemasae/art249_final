@@ -26,6 +26,23 @@
         a {
           font-family: $font-family-other;
         }
+
+        a:hover {
+          color: $link-color;
+          text-shadow: 2.5px 0 rgba(69, 178, 163, 0.5);
+        }
+
+        a:active {
+          color: $link-color;
+          text-decoration: line-through;
+        }
+      }
+
+      .active_page {
+        a {
+          color: $link-color;
+          text-decoration: line-through;
+        }
       }
     }
   }

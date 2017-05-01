@@ -161,8 +161,14 @@ $secondary-color: #e1cb10;
   margin: 3rem 0;
   padding: 1rem 1.5rem;
   background-color: $link-color;
-  border: none;
+  border: 2px solid $link-color;
   font-family: $font-family-other;
+}
+
+@mixin green-button-hover {
+  background-color: transparent;
+  border: 2px solid $link-color;
+  color: $link-color;
 }
 
 @mixin hero_header {
@@ -187,6 +193,7 @@ a {
   color: #333;
   font-size: $toggle-link-font-size;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 h1 {

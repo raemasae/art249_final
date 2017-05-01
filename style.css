@@ -157,7 +157,8 @@ a {
   text-decoration: none;
   color: #333;
   font-size: 1.3rem;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  cursor: pointer; }
 
 h1 {
   font-size: 4rem;
@@ -345,16 +346,18 @@ button:hover {
   .hero button {
     background: none;
     border: 3px solid #fff;
+    padding: 1rem 2rem;
+    font-size: 1rem; }
+  .hero button:hover {
+    background-color: white;
+    border: 3px solid #fff;
     padding: 1rem 2rem; }
-    .hero button a {
-      color: #fff;
-      font-size: 1rem; }
 
 .hero.home {
   background-image: url("images/video.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  max-height: 600px; }
+  max-height: 500px; }
 
 .media_player_mobile {
   width: 100%;
@@ -375,15 +378,10 @@ button:hover {
     .media_player_mobile .media_player_text .playlist {
       font-size: 0.9rem;
       letter-spacing: 2px; }
-  .media_player_mobile .media_player_forward {
-    width: 25px;
-    margin: 0.5rem; }
-  .media_player_mobile .media_player_play {
-    width: 20px;
-    margin: 0.5rem; }
-  .media_player_mobile .media_player_back {
-    width: 25px;
-    margin: 0.9rem; }
+  .media_player_mobile i {
+    margin: 15px; }
+  .media_player_mobile .fa-play {
+    margin-left: 18px; }
 
 .intro_content {
   position: relative;
@@ -422,7 +420,7 @@ button:hover {
   position: relative; }
   .dates .dates_img .pilots {
     width: 100%;
-    max-height: 500px;
+    max-height: 400px;
     object-fit: cover; }
   .dates .dates_content {
     padding: 9rem 1rem 3rem;
@@ -454,11 +452,16 @@ button:hover {
           font-weight: 100;
           text-transform: uppercase; }
   .dates button {
-    border: 5px solid #45b2a3;
+    border: 3px solid #45b2a3;
     background: transparent;
     position: absolute;
     top: -100px;
-    right: 30px; }
+    right: 30px;
+    font-size: 1rem;
+    padding: 1rem 2rem; }
+  .dates button:hover {
+    background: #45b2a3;
+    color: white; }
 
 .news {
   margin: 0 auto;
@@ -513,8 +516,12 @@ button:hover {
       margin: 3rem 0;
       padding: 1rem 1.5rem;
       background-color: #45b2a3;
-      border: none;
+      border: 2px solid #45b2a3;
       font-family: "Spinnaker", sans-serif; }
+    .news .news_content button:hover {
+      background-color: transparent;
+      border: 2px solid #45b2a3;
+      color: #45b2a3; }
 
 .sidebar {
   background: rgba(255, 255, 255, 0.76);
@@ -535,6 +542,15 @@ button:hover {
     padding-bottom: 2rem; }
     .sidebar .main_nav ul li a {
       font-family: "Spinnaker", sans-serif; }
+    .sidebar .main_nav ul li a:hover {
+      color: #45b2a3;
+      text-shadow: 2.5px 0 rgba(69, 178, 163, 0.5); }
+    .sidebar .main_nav ul li a:active {
+      color: #45b2a3;
+      text-decoration: line-through; }
+    .sidebar .main_nav ul .active_page a {
+      color: #45b2a3;
+      text-decoration: line-through; }
   .sidebar .nav_divider {
     border-bottom: 1px solid #000;
     width: 40%;
@@ -568,7 +584,7 @@ button:hover {
       margin: 3rem 0;
       padding: 1rem 1.5rem;
       background-color: #45b2a3;
-      border: none;
+      border: 2px solid #45b2a3;
       font-family: "Spinnaker", sans-serif;
       margin: 1rem 0; }
       .sidebar .mgm_promo button a {
@@ -610,7 +626,7 @@ button:hover {
       margin: 3rem 0;
       padding: 1rem 1.5rem;
       background-color: #45b2a3;
-      border: none;
+      border: 2px solid #45b2a3;
       font-family: "Spinnaker", sans-serif; }
   .tmobile .tmobile_map {
     margin-bottom: 3rem; }
@@ -651,7 +667,7 @@ button:hover {
         margin: 3rem 0;
         padding: 1rem 1.5rem;
         background-color: #45b2a3;
-        border: none;
+        border: 2px solid #45b2a3;
         font-family: "Spinnaker", sans-serif;
         margin-top: 0;
         margin-bottom: 0; }
@@ -689,7 +705,7 @@ button:hover {
       margin: 3rem 0;
       padding: 1rem 1.5rem;
       background-color: #45b2a3;
-      border: none;
+      border: 2px solid #45b2a3;
       font-family: "Spinnaker", sans-serif;
       margin: 0.5rem 0 0; }
       .mgm_accomodations .mgm_content button a {
@@ -697,6 +713,10 @@ button:hover {
 
 .footer_festival {
   margin-top: 200px; }
+
+.sidebar.experiencepage .main_nav ul .active_page a {
+  color: #45b2a3;
+  text-decoration: line-through; }
 
 .tmobile.experience {
   margin: 3rem 0; }
@@ -1076,7 +1096,7 @@ footer {
       bottom: -250px; }
       .hero .hero_video_content {
         width: 100%;
-        margin-top: 200px; }
+        margin-top: 125px; }
         .hero .hero_video_content .hero_video_header h3 {
           font-size: 2rem;
           color: white;
@@ -1098,7 +1118,7 @@ footer {
     width: calc(100% - 20%);
     float: right; }
   .intro {
-    margin: 5rem 0 7rem;
+    margin: 3rem 0 7rem;
     position: relative; }
     .intro .intro_content {
       max-width: 900px;
@@ -1135,7 +1155,7 @@ footer {
         z-index: -1; }
     .intro .intro_content_header_background.two {
       background: #e1cb10;
-      width: 711px;
+      width: 65%;
       height: 400px;
       position: absolute;
       right: 0;
@@ -1179,7 +1199,7 @@ footer {
         margin: 3rem 0;
         padding: 1rem 1.5rem;
         background-color: #45b2a3;
-        border: none;
+        border: 2px solid #45b2a3;
         font-family: "Spinnaker", sans-serif;
         margin: 1rem auto; }
     .tmobile .tmobile_parking .tmobile_parking_content {
