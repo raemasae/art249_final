@@ -519,15 +519,15 @@ button {
   height: 100vh;
   margin: 0 auto;
   text-align: center;
-  width: 25%; }
+  width: 20%; }
   .sidebar .logo {
-    margin-top: 5rem;
-    margin-bottom: 3rem; }
+    margin-top: 3rem;
+    margin-bottom: 0; }
     .sidebar .logo img {
       width: 70px; }
   .sidebar .main_nav {
     padding-top: 2rem;
-    padding-bottom: 3rem; }
+    padding-bottom: 2rem; }
     .sidebar .main_nav ul li a {
       font-family: "Spinnaker", sans-serif; }
   .sidebar .nav_divider {
@@ -536,7 +536,7 @@ button {
     margin: 0 auto; }
   .sidebar .media_player {
     padding-top: 2rem;
-    padding-bottom: 3rem; }
+    padding-bottom: 2rem; }
     .sidebar .media_player p {
       font-family: 'aileronbold';
       font-size: 1rem;
@@ -548,11 +548,12 @@ button {
       display: flex;
       justify-content: center;
       align-items: center; }
-      .sidebar .media_player .media_player_buttons img {
-        width: 20px;
-        margin: 0.5rem; }
-      .sidebar .media_player .media_player_buttons .media_player_play {
-        margin-left: 1rem; }
+      .sidebar .media_player .media_player_buttons a {
+        margin: 15px; }
+        .sidebar .media_player .media_player_buttons a i {
+          font-size: 27px; }
+        .sidebar .media_player .media_player_buttons a .fa-play {
+          margin-left: 15.5px; }
   .sidebar .mgm_promo {
     padding: 0 2rem; }
     .sidebar .mgm_promo p {
@@ -1081,7 +1082,7 @@ footer {
   .experience_mgm,
   .experience_photos,
   footer {
-    width: calc(100% - 25%);
+    width: calc(100% - 20%);
     float: right; }
   .intro {
     margin: 5rem 0 7rem;
