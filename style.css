@@ -299,6 +299,11 @@ button {
     font-family: "Spinnaker", sans-serif;
     color: white; }
 
+button:hover {
+  background-color: white;
+  border: 2px solid #45b2a3;
+  color: #45b2a3; }
+
 .header_mobile {
   display: flex;
   justify-content: space-between;
@@ -524,7 +529,7 @@ button {
     margin-top: 3rem;
     margin-bottom: 0; }
     .sidebar .logo img {
-      width: 70px; }
+      width: 90px; }
   .sidebar .main_nav {
     padding-top: 2rem;
     padding-bottom: 2rem; }
@@ -553,11 +558,12 @@ button {
         .sidebar .media_player .media_player_buttons a i {
           font-size: 27px; }
         .sidebar .media_player .media_player_buttons a .fa-play {
-          margin-left: 15.5px; }
+          margin-left: 10px; }
   .sidebar .mgm_promo {
     padding: 0 2rem; }
     .sidebar .mgm_promo p {
-      line-height: 1.2; }
+      line-height: 1.2;
+      text-transform: capitalize; }
     .sidebar .mgm_promo button {
       margin: 3rem 0;
       padding: 1rem 1.5rem;
@@ -569,6 +575,10 @@ button {
         font-size: 0.8rem;
         letter-spacing: 1px;
         color: white; }
+    .sidebar .mgm_promo button:hover {
+      background-color: transparent;
+      border: 2px solid #45b2a3;
+      color: #45b2a3; }
 
 .hero.festival {
   padding: 0;
@@ -1062,15 +1072,18 @@ footer {
     .hero .hero_video {
       width: calc(100% - 25%);
       float: right;
-      padding: 2rem 3rem;
+      padding: 2rem 0;
       bottom: -250px; }
       .hero .hero_video_content {
         width: 100%;
         margin-top: 200px; }
         .hero .hero_video_content .hero_video_header h3 {
-          font-size: 2rem; }
+          font-size: 2rem;
+          color: white;
+          text-align: left; }
         .hero .hero_video_content .hero_video_header h1 {
-          font-size: 7rem; }
+          font-size: 6rem;
+          text-align: left; }
   .intro,
   .dates,
   .news,
