@@ -732,7 +732,8 @@ button {
         width: 350px;
         height: 250px;
         display: flex;
-        justify-content: center; }
+        justify-content: center;
+        top: 0; }
         .tmobile.experience .tmobile_arena .tmobile_arena_imgs .background .img_hover {
           display: flex; }
           .tmobile.experience .tmobile_arena .tmobile_arena_imgs .background .img_hover h2 {
