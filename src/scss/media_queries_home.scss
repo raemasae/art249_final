@@ -191,7 +191,7 @@
 
 @media screen and (min-width: 768px) {
   .hero {
-    padding: 0 4rem;
+    padding: 0;
 
     .hero_video {
       bottom: -80px;
@@ -200,6 +200,7 @@
         display: flex;
         justify-content: space-between;
         width: 100%;
+        padding: 0 2rem;
 
         .hero_video_header {
           h3 {

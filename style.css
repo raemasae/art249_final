@@ -964,13 +964,14 @@ footer {
 
 @media screen and (min-width: 768px) {
   .hero {
-    padding: 0 4rem; }
+    padding: 0; }
     .hero .hero_video {
       bottom: -80px; }
       .hero .hero_video_content {
         display: flex;
         justify-content: space-between;
-        width: 100%; }
+        width: 100%;
+        padding: 0 2rem; }
         .hero .hero_video_content .hero_video_header h3 {
           font-size: 2rem; }
         .hero .hero_video_content .hero_video_header h1 {
