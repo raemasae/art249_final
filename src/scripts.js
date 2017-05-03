@@ -9,9 +9,11 @@ $(document).ready(function() {
     e.preventDefault();
     $dropmenu.slideToggle();
     $navToggle.toggleClass('active');
+    $navToggle.hide();
   });
 
   $navClose.on('click', function() {
     $dropmenu.slideToggle();
+    $navToggle.show();
   });
 });

@@ -263,7 +263,7 @@ footer {
     width: 30px;
     padding-top: 2rem; }
   .toggle_nav .toggle_logo img {
-    width: 50px;
+    width: 90px;
     margin: 2rem 0 1rem; }
   .toggle_nav .toggle_nav {
     padding-top: 1rem; }
@@ -365,7 +365,7 @@ button {
 .media_player_mobile {
   width: 100%;
   background: rgba(255, 255, 255, 0.85);
-  padding: 0.5rem 1rem;
+  padding: 0 0.3rem;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -458,10 +458,10 @@ button {
     border: 3px solid #45b2a3;
     background: transparent;
     position: absolute;
-    top: -100px;
+    top: -85px;
     right: 30px;
-    font-size: 1rem;
-    padding: 1rem 2rem; }
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem; }
   .dates button:hover {
     background: #45b2a3;
     color: white; }
@@ -609,7 +609,7 @@ button {
       width: 100%; }
     .hero.festival .hero_img h1 {
       color: #e1cb10;
-      font-size: 5rem;
+      font-size: 4rem;
       line-height: 0.9;
       position: absolute;
       left: 25px;
@@ -703,7 +703,7 @@ button {
     bottom: -125px;
     left: 0;
     right: 0;
-    padding: 2rem 0; }
+    padding: 2rem 1rem; }
     .mgm_accomodations .mgm_content h3 {
       font-family: "ostrich_sansheavy", "Oswald";
       font-size: 2.2em;
@@ -824,7 +824,7 @@ button {
     text-transform: uppercase;
     letter-spacing: 1.5px;
     background: #e1cb10;
-    padding: 1.5rem 0;
+    padding: 1rem 0.5rem;
     width: 85%;
     margin: 0 auto;
     margin-top: -60px;
@@ -923,7 +923,15 @@ footer {
     .news_content .news_article .news_article_img img {
       width: 100%; }
     .news_content .news_article .news_article_content {
-      margin-left: 0; } }
+      margin-left: 0; }
+  .tmobile.experience .tmobile_arena .tmobile_arena_imgs img {
+    width: 100vw; }
+  .tmobile.experience .tmobile_arena .tmobile_arena_imgs .background {
+    width: 100vw; }
+  .media_player_mobile {
+    padding: 0 0.3rem; }
+    .media_player_mobile .media_player_text .playlist {
+      display: none; } }
 
 @media screen and (min-width: 500px) {
   .dates .dates_img img {
@@ -963,6 +971,13 @@ footer {
         display: flex;
         justify-content: space-between;
         width: 100%; }
+        .hero .hero_video_content .hero_video_header h3 {
+          font-size: 2rem; }
+        .hero .hero_video_content .hero_video_header h1 {
+          font-size: 6rem; }
+        .hero .hero_video_content button {
+          font-size: 1rem;
+          padding: 1rem 2rem; }
   .hero_img img {
     height: 400px;
     object-fit: cover; }
@@ -1099,7 +1114,7 @@ footer {
   .tmobile.experience .news_content_header {
     margin: 0 5rem; } }
 
-@media screen and (min-width: 1249px) {
+@media screen and (min-width: 1024px) {
   .header_mobile .logo,
   .header_mobile .header_mobile_toggle-img,
   .header_mobile .utility_nav {
@@ -1193,8 +1208,10 @@ footer {
     .dates .dates_content h1 {
       left: 25px; }
   .dates button {
-    top: 475px;
-    right: 0; }
+    top: 80%;
+    right: 5%;
+    font-size: 1rem;
+    padding: 1rem 2rem; }
   .news_content button {
     font-size: 1rem; }
   .hero.festival .hero_img img {
@@ -1213,11 +1230,11 @@ footer {
     height: auto;
     justify-content: space-between; }
     .tmobile .tmobile_parking .tmobile_parking_img {
-      height: 300px;
-      width: 300px;
+      height: 275px;
+      width: 275px;
       border-radius: 150px;
       order: 2;
-      margin-right: 2rem; }
+      margin: 0 auto; }
       .tmobile .tmobile_parking .tmobile_parking_img img {
         width: 50%; }
       .tmobile .tmobile_parking .tmobile_parking_img .tmobile_parking_img_text p {
@@ -1231,8 +1248,7 @@ footer {
         font-family: "Spinnaker", sans-serif;
         margin: 1rem auto; }
     .tmobile .tmobile_parking .tmobile_parking_content {
-      max-width: 50vw;
-      margin-right: 1rem; }
+      max-width: 50vw; }
       .tmobile .tmobile_parking .tmobile_parking_content .parking_content_mobile {
         display: none; }
       .tmobile .tmobile_parking .tmobile_parking_content .parking_content_desktop {
