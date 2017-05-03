@@ -43,6 +43,10 @@
       button {
         @include green-button;
       }
+
+      button:hover {
+        @include green-button-hover;
+      }
     }
   }
 
@@ -111,6 +115,12 @@
         }
       }
 
+      button:hover {
+        @include green-button-hover;
+
+        color: $link-color;
+      }
+
       .parking_content_desktop {
         display: none;
       }
@@ -162,6 +172,10 @@
       a {
         font-size: 1rem;
       }
+    }
+
+    button:hover {
+      @include green-button-hover;
     }
   }
 }

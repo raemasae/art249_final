@@ -1,21 +1,30 @@
 .hero {
   position: relative;
   text-align: center;
-  padding: 0 1rem;
+  padding: 0;
 
-  .hero_video {
-    &_header {
-      h3 {
-        font-family: 'ostrich_sansmedium';
-        letter-spacing: 1px;
-      }
+  .hero_video_content {
+    padding-left: 1.5rem;
 
-      h1 {
-        @include hero_header;
+    .hero_video {
+      &_header {
+        h3 {
+          font-family: 'ostrich_sansmedium';
+          letter-spacing: 1px;
+          color: white;
+          text-align: left;
+        }
+
+        h1 {
+          @include hero_header;
+
+          text-align: left;
+        }
       }
     }
 
     .hero_button {
+      display: flex;
       align-self: flex-end;
       margin-bottom: 7px;
     }
@@ -35,14 +44,14 @@
   button {
     background: none;
     border: 3px solid #fff;
-    padding: 1rem 2rem;
-    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
   }
 
   button:hover {
     background-color: white;
     border: 3px solid #fff;
-    padding: 1rem 2rem;
+    color: $link-color;
   }
 }
 
@@ -51,4 +60,5 @@
   background-size: cover;
   background-repeat: no-repeat;
   max-height: 500px;
+  padding-bottom: 2rem;
 }

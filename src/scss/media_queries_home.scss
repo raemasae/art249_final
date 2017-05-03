@@ -180,6 +180,13 @@
     }
   }
 
+  .hero_img {
+    img {
+      height: 400px;
+      object-fit: cover;
+    }
+  }
+
   .dates {
     &_content {
       &_details {
@@ -316,12 +323,13 @@
     height: 400px;
   }
 
-  .hero.festival {
+  .hero {
     .hero_img {
       h1 {
-        font-size: 9rem;
+        font-size: 7rem;
         left: 85px;
         bottom: 60px;
+        text-align: left;
       }
     }
   }
@@ -645,6 +653,7 @@
       margin: 0 auto;
       padding: 0;
       height: auto;
+      justify-content: space-between;
 
       .tmobile_parking_img {
         height: 300px;
@@ -704,8 +713,13 @@
 
   .hero.festival {
     .hero_img.experience_hero {
-      img {
-        height: 600px;
+      h1 {
+        @include main_header;
+
+        left: 80%;
+        top: 170px;
+        font-size: 7rem;
+        line-height: 0.9;
       }
     }
   }

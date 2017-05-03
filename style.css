@@ -240,7 +240,7 @@ a.toggle {
       color: white; }
 
 footer {
-  padding: 3rem 0;
+  padding: 2rem;
   text-align: center;
   background: #000;
   color: #fff; }
@@ -300,17 +300,12 @@ button {
     font-family: "Spinnaker", sans-serif;
     color: white; }
 
-button:hover {
-  background-color: white;
-  border: 2px solid #45b2a3;
-  color: #45b2a3; }
-
 .header_mobile {
   display: flex;
   justify-content: space-between;
-  padding: 1rem; }
+  padding: 0.5rem 0; }
   .header_mobile .logo img {
-    width: 50px; }
+    width: 85px; }
   .header_mobile .header_mobile_toggle-img {
     width: 50px;
     padding-top: 0.5rem; }
@@ -319,21 +314,28 @@ button:hover {
     align-items: center; }
     .header_mobile .utility_nav .cart {
       width: 35px;
-      margin-right: 20px; }
+      margin-right: 20px;
+      margin-bottom: 10px; }
 
 .hero {
   position: relative;
   text-align: center;
-  padding: 0 1rem; }
-  .hero .hero_video_header h3 {
-    font-family: 'ostrich_sansmedium';
-    letter-spacing: 1px; }
-  .hero .hero_video_header h1 {
-    color: #e1cb10;
-    line-height: 0.9; }
-  .hero .hero_video .hero_button {
-    align-self: flex-end;
-    margin-bottom: 7px; }
+  padding: 0; }
+  .hero .hero_video_content {
+    padding-left: 1.5rem; }
+    .hero .hero_video_content .hero_video_header h3 {
+      font-family: 'ostrich_sansmedium';
+      letter-spacing: 1px;
+      color: white;
+      text-align: left; }
+    .hero .hero_video_content .hero_video_header h1 {
+      color: #e1cb10;
+      line-height: 0.9;
+      text-align: left; }
+    .hero .hero_video_content .hero_button {
+      display: flex;
+      align-self: flex-end;
+      margin-bottom: 7px; }
   .hero .hero_play {
     width: 40px;
     height: 50px;
@@ -346,18 +348,19 @@ button:hover {
   .hero button {
     background: none;
     border: 3px solid #fff;
-    padding: 1rem 2rem;
-    font-size: 1rem; }
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem; }
   .hero button:hover {
     background-color: white;
     border: 3px solid #fff;
-    padding: 1rem 2rem; }
+    color: #45b2a3; }
 
 .hero.home {
   background-image: url("images/video.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  max-height: 500px; }
+  max-height: 500px;
+  padding-bottom: 2rem; }
 
 .media_player_mobile {
   width: 100%;
@@ -536,7 +539,7 @@ button:hover {
     margin-top: 3rem;
     margin-bottom: 0; }
     .sidebar .logo img {
-      width: 90px; }
+      width: 140px; }
   .sidebar .main_nav {
     padding-top: 2rem;
     padding-bottom: 2rem; }
@@ -628,6 +631,10 @@ button:hover {
       background-color: #45b2a3;
       border: 2px solid #45b2a3;
       font-family: "Spinnaker", sans-serif; }
+    .tmobile .tmobile_content .tmobile_button button:hover {
+      background-color: transparent;
+      border: 2px solid #45b2a3;
+      color: #45b2a3; }
   .tmobile .tmobile_map {
     margin-bottom: 3rem; }
     .tmobile .tmobile_map img {
@@ -673,6 +680,11 @@ button:hover {
         margin-bottom: 0; }
         .tmobile .tmobile_parking .tmobile_parking_content button a {
           font-size: 1rem; }
+      .tmobile .tmobile_parking .tmobile_parking_content button:hover {
+        background-color: transparent;
+        border: 2px solid #45b2a3;
+        color: #45b2a3;
+        color: #45b2a3; }
       .tmobile .tmobile_parking .tmobile_parking_content .parking_content_desktop {
         display: none; }
 
@@ -710,13 +722,16 @@ button:hover {
       margin: 0.5rem 0 0; }
       .mgm_accomodations .mgm_content button a {
         font-size: 1rem; }
+    .mgm_accomodations .mgm_content button:hover {
+      background-color: transparent;
+      border: 2px solid #45b2a3;
+      color: #45b2a3; }
 
 .footer_festival {
   margin-top: 200px; }
 
-.sidebar.experiencepage .main_nav ul .active_page a {
-  color: #45b2a3;
-  text-decoration: line-through; }
+.hero_img h1 {
+  text-align: left; }
 
 .tmobile.experience {
   margin: 3rem 0; }
@@ -788,7 +803,9 @@ button:hover {
             margin-bottom: 1rem; }
           .tmobile.experience .tmobile_arena .tmobile_arena_imgs .background .hover_content p {
             color: white;
-            text-transform: none; }
+            text-transform: none;
+            font-size: 1rem;
+            letter-spacing: 0.5px; }
       .tmobile.experience .tmobile_arena .tmobile_arena_imgs a:hover {
         background: rgba(0, 0, 0, 0.5); }
         .tmobile.experience .tmobile_arena .tmobile_arena_imgs a:hover .hover_content {
@@ -845,13 +862,19 @@ button:hover {
       height: 200px;
       margin: 1rem 0; }
   .experience_photos a {
-    margin: 2rem auto; }
+    margin: 2rem auto;
+    text-align: center; }
     .experience_photos a button {
       font-size: 1.2rem;
-      padding: 1rem 1.5rem; }
+      padding: 1rem 1.5rem;
+      border: 2px solid #45b2a3; }
+    .experience_photos a button:hover {
+      background-color: transparent;
+      border: 2px solid #45b2a3;
+      color: #45b2a3; }
 
 footer {
-  padding-bottom: 150px; }
+  padding-bottom: 120px; }
   footer .sponsors {
     display: flex;
     flex-wrap: wrap;
@@ -940,6 +963,9 @@ footer {
         display: flex;
         justify-content: space-between;
         width: 100%; }
+  .hero_img img {
+    height: 400px;
+    object-fit: cover; }
   .dates_content_details .dates_night h4 {
     font-size: 1rem;
     letter-spacing: 1.1px; }
@@ -1004,10 +1030,11 @@ footer {
         font-size: 1.2rem; }
   .hero {
     height: 400px; }
-  .hero.festival .hero_img h1 {
-    font-size: 9rem;
+  .hero .hero_img h1 {
+    font-size: 7rem;
     left: 85px;
-    bottom: 60px; }
+    bottom: 60px;
+    text-align: left; }
   .mgm_accomodations .mgm_content {
     bottom: -160px; }
     .mgm_accomodations .mgm_content .mgm_content_details h3 {
@@ -1183,7 +1210,8 @@ footer {
     background-color: transparent;
     margin: 0 auto;
     padding: 0;
-    height: auto; }
+    height: auto;
+    justify-content: space-between; }
     .tmobile .tmobile_parking .tmobile_parking_img {
       height: 300px;
       width: 300px;
@@ -1220,8 +1248,17 @@ footer {
           font-family: "Spinnaker", sans-serif;
           font-size: 1.5rem;
           padding-top: 0.5rem; }
-  .hero.festival .hero_img.experience_hero img {
-    height: 600px; }
+  .hero.festival .hero_img.experience_hero h1 {
+    text-align: left;
+    font-size: 9rem;
+    line-height: 8rem;
+    position: absolute;
+    left: -100px;
+    top: -150px;
+    left: 80%;
+    top: 170px;
+    font-size: 7rem;
+    line-height: 0.9; }
   .mgm_accomodations {
     margin-top: 0; }
     .mgm_accomodations .mgm_content {
