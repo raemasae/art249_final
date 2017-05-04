@@ -187,6 +187,10 @@
       }
     }
   }
+
+  .tmobile_arena {
+    align-items: center;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -403,6 +407,7 @@
     .tmobile_arena {
       flex-direction: row;
       justify-content: center;
+      align-items: center;
 
       .tmobile_arena_imgs {
         margin: 0;

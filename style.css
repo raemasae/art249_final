@@ -265,6 +265,15 @@ footer {
   .toggle_nav .toggle_logo img {
     width: 90px;
     margin: 2rem 0 1rem; }
+  .toggle_nav ul li a:hover {
+    color: #45b2a3;
+    text-shadow: 2.5px 0 rgba(69, 178, 163, 0.5); }
+  .toggle_nav ul li a:active {
+    color: #45b2a3;
+    text-decoration: line-through; }
+  .toggle_nav ul .active_page a {
+    color: #45b2a3;
+    text-decoration: line-through; }
   .toggle_nav .toggle_nav {
     padding-top: 1rem; }
   .toggle_nav .utility_nav {
@@ -960,7 +969,9 @@ footer {
   .experience_photos .experience_photos_imgs img {
     height: 200px; }
   .experience_photos .experience_photos_imgs.large img {
-    height: 350px; } }
+    height: 350px; }
+  .tmobile_arena {
+    align-items: center; } }
 
 @media screen and (min-width: 768px) {
   .hero {
@@ -1064,7 +1075,8 @@ footer {
     margin: 0 3rem; }
   .tmobile.experience .tmobile_arena {
     flex-direction: row;
-    justify-content: center; }
+    justify-content: center;
+    align-items: center; }
     .tmobile.experience .tmobile_arena .tmobile_arena_imgs {
       margin: 0; }
       .tmobile.experience .tmobile_arena .tmobile_arena_imgs img {
